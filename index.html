@@ -1,82 +1,762 @@
 <!doctype html><html><head><meta charset=utf-8><meta http-equiv=refresh content=60><meta name=robots content=noindex><meta name=viewport content="width=device-width,initial-scale=1"><title>BTC Hive live flowchart</title><style>body{font-family:Helvetica,Arial,sans-serif;background:#FFFDF5;color:#222;margin:12px}h1{text-align:center;font-size:22px;margin:6px 0}.meta{text-align:center;font-size:13px;color:#555}
-.k{display:inline-block;background:#fff;border:1px solid #ccc;padding:6px 10px;margin:3px;border-radius:8px;font-size:13px}.tot{text-align:center}
-.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:10px}
-.flow{min-width:1560px}.tree ul{display:flex;justify-content:center;padding:18px 0 0;margin:0;position:relative;list-style:none}
-.tree li{position:relative;padding:18px 5px 0;display:flex;flex-direction:column;align-items:center}
-.tree li::before,.tree li::after{content:"";position:absolute;top:0;width:50%;height:18px;border-top:3px solid var(--c)}
-.tree li::before{right:50%}.tree li::after{left:50%;border-left:3px solid var(--c)}
-.tree li:first-child::before,.tree li:last-child::after{border-top:none}
-.tree li:only-child::before{display:none}.tree li:only-child::after{border-top:none;left:50%}
-.tree li:first-child::after{border-radius:8px 0 0 0}.tree li:last-child::before{border-right:3px solid var(--c);border-radius:0 8px 0 0}
-.tree ul ul::before{content:"";position:absolute;top:0;left:50%;height:18px;border-left:3px solid var(--pc)}
-.tree>ul>li{padding-top:0}.tree>ul>li::before,.tree>ul>li::after{display:none}
-.node{border:2px solid;border-radius:12px;padding:6px 8px;width:170px;font-size:11px;box-shadow:0 1px 2px #0002;background:#fff;box-sizing:border-box}
-.queen{width:320px;font-size:13px;border-width:3px}.lead{width:230px;font-size:12px}
-.hdr{color:#fff;border-radius:10px;padding:6px 8px;width:170px;text-align:center;font-weight:bold;font-size:12px;box-sizing:border-box}.hdr small{font-weight:normal;display:block;opacity:.9}
-.col{display:flex;flex-direction:column;align-items:center}.col .node{margin-top:14px;position:relative}.col .node::before{content:"";position:absolute;top:-16px;left:50%;height:14px;border-left:3px solid var(--c)}
-.nt{font-weight:bold;font-size:12px}.nr{color:#444;margin:2px 0}.na{margin-top:3px;color:#333;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.lt{color:#555}
-.b{display:inline-block;padding:1px 6px;border-radius:8px;color:#fff;font-size:10px;font-weight:bold}
-.dash{border-style:dashed!important;background:#fff!important;color:#546E7A;text-align:center}.col .dash::before{border-left-style:dashed}
-.legend{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:12px 0;font-size:12px}.legend i{display:inline-block;width:14px;height:14px;border-radius:3px;vertical-align:middle;margin-right:4px}
+.k{display:inline-block;background:#fff;border:1px solid #ccc;padding:6px 10px;margin:3px;border-radius:8px;font-size:13px}.tot{text-align:center;margin:10px 0}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid #eee;border-radius:8px}.flow{min-width:1700px;width:100%;height:auto;display:block}
 .lock{background:#263238;color:#fff;border-radius:10px;padding:8px 12px;text-align:center;font-size:13px;margin:12px auto;max-width:900px}
 .finds{display:flex;flex-wrap:wrap;gap:10px}.fc{flex:1 1 300px;background:#fff;border:1px solid #ddd;border-radius:10px;padding:8px}.fc h3{margin:0 0 6px;font-size:14px}.fr{font-size:12px;border-top:1px solid #eee;padding:4px 0;word-break:break-word}</style></head><body>
-<h1>🐝 BTC Bee Hive — live flowchart</h1><div class=meta>Owner: Chess (ET) · Payout: bc1q…4ue2 · Updated Oct 12 2026 03:49 PM ET · auto-refresh 60 s · published every ~5 min</div>
+<h1>🐝 BTC Bee Hive — live flowchart</h1><div class=meta>Owner: Chess (ET) · Payout: bc1q…4ue2 · Updated Oct 12 2026 03:50 PM ET · auto-refresh 60 s · published every ~5 min · scroll sideways on phones</div>
+<div class=scroll><svg class=flow
+ viewBox="0.00 0.00 1941.50 1755.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1751)">
+<title>H</title>
+<polygon fill="#fffdf5" stroke="transparent" points="-4,4 -4,-1751 1937.5,-1751 1937.5,4 -4,4"/>
+<g id="clust2" class="cluster">
+<title>cluster_legend</title>
+<path fill="white" stroke="#999999" d="M1516.5,-1237C1516.5,-1237 1728.5,-1237 1728.5,-1237 1734.5,-1237 1740.5,-1243 1740.5,-1249 1740.5,-1249 1740.5,-1647 1740.5,-1647 1740.5,-1653 1734.5,-1659 1728.5,-1659 1728.5,-1659 1516.5,-1659 1516.5,-1659 1510.5,-1659 1504.5,-1653 1504.5,-1647 1504.5,-1647 1504.5,-1249 1504.5,-1249 1504.5,-1243 1510.5,-1237 1516.5,-1237"/>
+<text text-anchor="start" x="1593.5" y="-1644.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="14.00">Legend</text>
+</g>
+<!-- queen -->
+<g id="node1" class="node">
+<title>queen</title>
+<path fill="#ffd54f" stroke="#2e7d32" stroke-width="4" d="M1426.5,-1747C1426.5,-1747 1218.5,-1747 1218.5,-1747 1212.5,-1747 1206.5,-1741 1206.5,-1735 1206.5,-1735 1206.5,-1679 1206.5,-1679 1206.5,-1673 1212.5,-1667 1218.5,-1667 1218.5,-1667 1426.5,-1667 1426.5,-1667 1432.5,-1667 1438.5,-1673 1438.5,-1679 1438.5,-1679 1438.5,-1735 1438.5,-1735 1438.5,-1741 1432.5,-1747 1426.5,-1747"/>
+<text text-anchor="start" x="1244" y="-1730.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00">QUEEN BEE (hub)</text>
+<text text-anchor="start" x="1215.5" y="-1713.8" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Hub; cull :29/:59, scout relay :44, care :47, s…</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1213.5,-1697 1213.5,-1709 1431.5,-1709 1431.5,-1697 1213.5,-1697"/>
+<text text-anchor="start" x="1301.5" y="-1701.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1258" y="-1687.8" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:46 PM ET</text>
+<text text-anchor="start" x="1214.5" y="-1674.8" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">Queen Bee | 2026&#45;10&#45;12 15:46 | Chess via Gr…</text>
+</g>
+<!-- LEVO -->
+<g id="node2" class="node">
+<title>LEVO</title>
+<path fill="#e1bee7" stroke="#2e7d32" stroke-width="3.5" d="M800.5,-1476.5C800.5,-1476.5 484.5,-1476.5 484.5,-1476.5 478.5,-1476.5 472.5,-1470.5 472.5,-1464.5 472.5,-1464.5 472.5,-1408.5 472.5,-1408.5 472.5,-1402.5 478.5,-1396.5 484.5,-1396.5 484.5,-1396.5 800.5,-1396.5 800.5,-1396.5 806.5,-1396.5 812.5,-1402.5 812.5,-1408.5 812.5,-1408.5 812.5,-1464.5 812.5,-1464.5 812.5,-1470.5 806.5,-1476.5 800.5,-1476.5"/>
+<text text-anchor="start" x="480.5" y="-1459.7" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00">IMPROVEMENT LEAD: Evolution Bee</text>
+<text text-anchor="start" x="529" y="-1443.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Improvement lead; learning loop, evolution inbo…</text>
+<polygon fill="#2e7d32" stroke="transparent" points="479.5,-1426.5 479.5,-1438.5 805.5,-1438.5 805.5,-1426.5 479.5,-1426.5"/>
+<text text-anchor="start" x="621.5" y="-1431.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="578" y="-1417.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:16 PM ET</text>
+<text text-anchor="start" x="547.5" y="-1404.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">Evolution Bee | 0 | 0 | 0 | 0 | Digest 20; …</text>
+</g>
+<!-- queen&#45;&gt;LEVO -->
+<g id="edge1" class="edge">
+<title>queen&#45;&gt;LEVO</title>
+<path fill="none" stroke="#f57f17" stroke-width="3" d="M1206.27,-1678.83C1184.55,-1672.91 1162.19,-1666.22 1141.5,-1659 993.34,-1607.27 828.11,-1529.81 729.85,-1481.53"/>
+<polygon fill="#f57f17" stroke="#f57f17" stroke-width="3" points="731.54,-1478.07 719.97,-1476.66 728.14,-1484.98 731.54,-1478.07"/>
+</g>
+<!-- L26 -->
+<g id="node3" class="node">
+<title>L26</title>
+<path fill="#c8e6c9" stroke="#2e7d32" stroke-width="3.5" d="M1482.5,-1476.5C1482.5,-1476.5 1162.5,-1476.5 1162.5,-1476.5 1156.5,-1476.5 1150.5,-1470.5 1150.5,-1464.5 1150.5,-1464.5 1150.5,-1408.5 1150.5,-1408.5 1150.5,-1402.5 1156.5,-1396.5 1162.5,-1396.5 1162.5,-1396.5 1482.5,-1396.5 1482.5,-1396.5 1488.5,-1396.5 1494.5,-1402.5 1494.5,-1408.5 1494.5,-1408.5 1494.5,-1464.5 1494.5,-1464.5 1494.5,-1470.5 1488.5,-1476.5 1482.5,-1476.5"/>
+<text text-anchor="start" x="1158.5" y="-1459.7" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00">REVENUE LEAD: BEE26 Revenue Bee</text>
+<text text-anchor="start" x="1239.5" y="-1443.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Revenue lead; BTC collection · 15,45</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1157.5,-1426.5 1157.5,-1438.5 1487.5,-1438.5 1487.5,-1426.5 1157.5,-1426.5"/>
+<text text-anchor="start" x="1301.5" y="-1431.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1258" y="-1417.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:19 PM ET</text>
+<text text-anchor="start" x="1219" y="-1404.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE26 Revenue Bee | 0 | 0 | 0 | 0 | START N…</text>
+</g>
+<!-- queen&#45;&gt;L26 -->
+<g id="edge2" class="edge">
+<title>queen&#45;&gt;L26</title>
+<path fill="none" stroke="#f57f17" stroke-width="3" d="M1322.5,-1666.96C1322.5,-1619.63 1322.5,-1539.78 1322.5,-1487.86"/>
+<polygon fill="#f57f17" stroke="#f57f17" stroke-width="3" points="1326.35,-1487.59 1322.5,-1476.59 1318.65,-1487.59 1326.35,-1487.59"/>
+</g>
+<!-- lg -->
+<g id="node44" class="node">
+<title>lg</title>
+<text text-anchor="start" x="1539" y="-1609.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="14.00">Branch (fill + arrows)</text>
+<polygon fill="#f57f17" stroke="transparent" points="1522.5,-1580.5 1522.5,-1599.5 1540.5,-1599.5 1540.5,-1580.5 1522.5,-1580.5"/>
+<text text-anchor="start" x="1529" y="-1586.3" font-family="Helvetica,sans-Serif" font-size="14.00"> </text>
+<text text-anchor="start" x="1545.5" y="-1586.3" font-family="Helvetica,sans-Serif" font-size="14.00">QUEEN</text>
+<polygon fill="#7b1fa2" stroke="transparent" points="1522.5,-1558.5 1522.5,-1577.5 1540.5,-1577.5 1540.5,-1558.5 1522.5,-1558.5"/>
+<text text-anchor="start" x="1529" y="-1564.3" font-family="Helvetica,sans-Serif" font-size="14.00"> </text>
+<text text-anchor="start" x="1545.5" y="-1564.3" font-family="Helvetica,sans-Serif" font-size="14.00">IMPROVEMENT LEAD</text>
+<polygon fill="#7b1fa2" stroke="transparent" points="1522.5,-1536.5 1522.5,-1555.5 1540.5,-1555.5 1540.5,-1536.5 1522.5,-1536.5"/>
+<text text-anchor="start" x="1529" y="-1542.3" font-family="Helvetica,sans-Serif" font-size="14.00"> </text>
+<text text-anchor="start" x="1545.5" y="-1542.3" font-family="Helvetica,sans-Serif" font-size="14.00">LEADERSHIP / SUPPORT</text>
+<polygon fill="#c62828" stroke="transparent" points="1522.5,-1514.5 1522.5,-1533.5 1540.5,-1533.5 1540.5,-1514.5 1522.5,-1514.5"/>
+<text text-anchor="start" x="1529" y="-1520.3" font-family="Helvetica,sans-Serif" font-size="14.00"> </text>
+<text text-anchor="start" x="1545.5" y="-1520.3" font-family="Helvetica,sans-Serif" font-size="14.00">SECURITY</text>
+<polygon fill="#6d4c41" stroke="transparent" points="1522.5,-1492.5 1522.5,-1511.5 1540.5,-1511.5 1540.5,-1492.5 1522.5,-1492.5"/>
+<text text-anchor="start" x="1529" y="-1498.3" font-family="Helvetica,sans-Serif" font-size="14.00"> </text>
+<text text-anchor="start" x="1545.5" y="-1498.3" font-family="Helvetica,sans-Serif" font-size="14.00">BOOST + UPKEEP</text>
+<polygon fill="#546e7a" stroke="transparent" points="1522.5,-1470.5 1522.5,-1489.5 1540.5,-1489.5 1540.5,-1470.5 1522.5,-1470.5"/>
+<text text-anchor="start" x="1529" y="-1476.3" font-family="Helvetica,sans-Serif" font-size="14.00"> </text>
+<text text-anchor="start" x="1545.5" y="-1476.3" font-family="Helvetica,sans-Serif" font-size="14.00">CARE CHECKER</text>
+<polygon fill="#e65100" stroke="transparent" points="1522.5,-1448.5 1522.5,-1467.5 1540.5,-1467.5 1540.5,-1448.5 1522.5,-1448.5"/>
+<text text-anchor="start" x="1529" y="-1454.3" font-family="Helvetica,sans-Serif" font-size="14.00"> </text>
+<text text-anchor="start" x="1545.5" y="-1454.3" font-family="Helvetica,sans-Serif" font-size="14.00">WORKERS (11)</text>
+<polygon fill="#1565c0" stroke="transparent" points="1522.5,-1426.5 1522.5,-1445.5 1540.5,-1445.5 1540.5,-1426.5 1522.5,-1426.5"/>
+<text text-anchor="start" x="1529" y="-1432.3" font-family="Helvetica,sans-Serif" font-size="14.00"> </text>
+<text text-anchor="start" x="1545.5" y="-1432.3" font-family="Helvetica,sans-Serif" font-size="14.00">SCOUTS (5)</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1522.5,-1404.5 1522.5,-1423.5 1540.5,-1423.5 1540.5,-1404.5 1522.5,-1404.5"/>
+<text text-anchor="start" x="1529" y="-1410.3" font-family="Helvetica,sans-Serif" font-size="14.00"> </text>
+<text text-anchor="start" x="1545.5" y="-1410.3" font-family="Helvetica,sans-Serif" font-size="14.00">HIVE BAR 1 BUILDERS</text>
+<polygon fill="#00838f" stroke="transparent" points="1522.5,-1382.5 1522.5,-1401.5 1540.5,-1401.5 1540.5,-1382.5 1522.5,-1382.5"/>
+<text text-anchor="start" x="1529" y="-1388.3" font-family="Helvetica,sans-Serif" font-size="14.00"> </text>
+<text text-anchor="start" x="1545.5" y="-1388.3" font-family="Helvetica,sans-Serif" font-size="14.00">OUTREACH</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1522.5,-1360.5 1522.5,-1379.5 1540.5,-1379.5 1540.5,-1360.5 1522.5,-1360.5"/>
+<text text-anchor="start" x="1529" y="-1366.3" font-family="Helvetica,sans-Serif" font-size="14.00"> </text>
+<text text-anchor="start" x="1545.5" y="-1366.3" font-family="Helvetica,sans-Serif" font-size="14.00">REVENUE LEAD</text>
+<text text-anchor="start" x="1597" y="-1345.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="14.00">Status</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1522.5,-1316.5 1522.5,-1335.5 1540.5,-1335.5 1540.5,-1316.5 1522.5,-1316.5"/>
+<text text-anchor="start" x="1529" y="-1322.3" font-family="Helvetica,sans-Serif" font-size="14.00"> </text>
+<text text-anchor="start" x="1545.5" y="-1322.3" font-family="Helvetica,sans-Serif" font-size="14.00">active (border + badge)</text>
+<polygon fill="#000000" stroke="transparent" points="1522.5,-1294.5 1522.5,-1313.5 1540.5,-1313.5 1540.5,-1294.5 1522.5,-1294.5"/>
+<text text-anchor="start" x="1529" y="-1300.3" font-family="Helvetica,sans-Serif" font-size="14.00"> </text>
+<text text-anchor="start" x="1545.5" y="-1300.3" font-family="Helvetica,sans-Serif" font-size="14.00">idle (border + badge)</text>
+<polygon fill="#e69500" stroke="transparent" points="1522.5,-1272.5 1522.5,-1291.5 1540.5,-1291.5 1540.5,-1272.5 1522.5,-1272.5"/>
+<text text-anchor="start" x="1529" y="-1278.3" font-family="Helvetica,sans-Serif" font-size="14.00"> </text>
+<text text-anchor="start" x="1545.5" y="-1278.3" font-family="Helvetica,sans-Serif" font-size="14.00">waiting (border + badge)</text>
+<polygon fill="#c62828" stroke="transparent" points="1522.5,-1250.5 1522.5,-1269.5 1540.5,-1269.5 1540.5,-1250.5 1522.5,-1250.5"/>
+<text text-anchor="start" x="1529" y="-1256.3" font-family="Helvetica,sans-Serif" font-size="14.00"> </text>
+<text text-anchor="start" x="1545.5" y="-1256.3" font-family="Helvetica,sans-Serif" font-size="14.00">errored (border + badge)</text>
+</g>
+<!-- queen&#45;&gt;lg -->
+<!-- h0 -->
+<g id="node4" class="node">
+<title>h0</title>
+<path fill="#7b1fa2" stroke="#7b1fa2" d="M319.5,-1213C319.5,-1213 157.5,-1213 157.5,-1213 151.5,-1213 145.5,-1207 145.5,-1201 145.5,-1201 145.5,-1189 145.5,-1189 145.5,-1183 151.5,-1177 157.5,-1177 157.5,-1177 319.5,-1177 319.5,-1177 325.5,-1177 331.5,-1183 331.5,-1189 331.5,-1189 331.5,-1201 331.5,-1201 331.5,-1207 325.5,-1213 319.5,-1213"/>
+<text text-anchor="start" x="151.5" y="-1196.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00" fill="white">LEADERSHIP / SUPPORT</text>
+<text text-anchor="start" x="216" y="-1186.8" font-family="Helvetica,sans-Serif" font-size="9.00" fill="white">protected</text>
+</g>
+<!-- LEVO&#45;&gt;h0 -->
+<g id="edge3" class="edge">
+<title>LEVO&#45;&gt;h0</title>
+<path fill="none" stroke="#7b1fa2" stroke-width="2.2" d="M576.69,-1396.49C491.66,-1346.08 346.36,-1259.94 277.24,-1218.97"/>
+<polygon fill="#7b1fa2" stroke="#7b1fa2" stroke-width="2.2" points="279.04,-1215.56 267.61,-1213.26 275.11,-1222.18 279.04,-1215.56"/>
+</g>
+<!-- h1 -->
+<g id="node9" class="node">
+<title>h1</title>
+<path fill="#c62828" stroke="#c62828" d="M473.5,-1213C473.5,-1213 413.5,-1213 413.5,-1213 407.5,-1213 401.5,-1207 401.5,-1201 401.5,-1201 401.5,-1189 401.5,-1189 401.5,-1183 407.5,-1177 413.5,-1177 413.5,-1177 473.5,-1177 473.5,-1177 479.5,-1177 485.5,-1183 485.5,-1189 485.5,-1189 485.5,-1201 485.5,-1201 485.5,-1207 479.5,-1213 473.5,-1213"/>
+<text text-anchor="start" x="407.5" y="-1196.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00" fill="white">SECURITY</text>
+<text text-anchor="start" x="410" y="-1186.8" font-family="Helvetica,sans-Serif" font-size="9.00" fill="white">BEE24 retiring</text>
+</g>
+<!-- LEVO&#45;&gt;h1 -->
+<g id="edge8" class="edge">
+<title>LEVO&#45;&gt;h1</title>
+<path fill="none" stroke="#c62828" stroke-width="2.2" d="M610.08,-1396.49C569.14,-1347.22 499.84,-1263.81 464.94,-1221.81"/>
+<polygon fill="#c62828" stroke="#c62828" stroke-width="2.2" points="467.83,-1219.26 457.84,-1213.26 461.91,-1224.18 467.83,-1219.26"/>
+</g>
+<!-- h2 -->
+<g id="node12" class="node">
+<title>h2</title>
+<path fill="#6d4c41" stroke="#6d4c41" d="M701,-1213C701,-1213 584,-1213 584,-1213 578,-1213 572,-1207 572,-1201 572,-1201 572,-1189 572,-1189 572,-1183 578,-1177 584,-1177 584,-1177 701,-1177 701,-1177 707,-1177 713,-1183 713,-1189 713,-1189 713,-1201 713,-1201 713,-1207 707,-1213 701,-1213"/>
+<text text-anchor="start" x="578" y="-1192.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00" fill="white">BOOST + UPKEEP</text>
+</g>
+<!-- LEVO&#45;&gt;h2 -->
+<g id="edge11" class="edge">
+<title>LEVO&#45;&gt;h2</title>
+<path fill="none" stroke="#6d4c41" stroke-width="2.2" d="M642.5,-1396.49C642.5,-1348.25 642.5,-1267.29 642.5,-1224.5"/>
+<polygon fill="#6d4c41" stroke="#6d4c41" stroke-width="2.2" points="646.35,-1224.26 642.5,-1213.26 638.65,-1224.26 646.35,-1224.26"/>
+</g>
+<!-- h3 -->
+<g id="node15" class="node">
+<title>h3</title>
+<path fill="#546e7a" stroke="#546e7a" d="M879.5,-1213C879.5,-1213 779.5,-1213 779.5,-1213 773.5,-1213 767.5,-1207 767.5,-1201 767.5,-1201 767.5,-1189 767.5,-1189 767.5,-1183 773.5,-1177 779.5,-1177 779.5,-1177 879.5,-1177 879.5,-1177 885.5,-1177 891.5,-1183 891.5,-1189 891.5,-1189 891.5,-1201 891.5,-1201 891.5,-1207 885.5,-1213 879.5,-1213"/>
+<text text-anchor="start" x="773.5" y="-1196.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00" fill="white">CARE CHECKER</text>
+<text text-anchor="start" x="803" y="-1186.8" font-family="Helvetica,sans-Serif" font-size="9.00" fill="white">placeholder</text>
+</g>
+<!-- LEVO&#45;&gt;h3 -->
+<g id="edge14" class="edge">
+<title>LEVO&#45;&gt;h3</title>
+<path fill="none" stroke="#546e7a" stroke-width="2.2" d="M672.96,-1396.49C711.35,-1347.32 776.28,-1264.16 809.14,-1222.07"/>
+<polygon fill="#546e7a" stroke="#546e7a" stroke-width="2.2" points="812.29,-1224.3 816.02,-1213.26 806.22,-1219.56 812.29,-1224.3"/>
+</g>
+<!-- h4 -->
+<g id="node17" class="node">
+<title>h4</title>
+<path fill="#e65100" stroke="#e65100" d="M1185.5,-1213C1185.5,-1213 1083.5,-1213 1083.5,-1213 1077.5,-1213 1071.5,-1207 1071.5,-1201 1071.5,-1201 1071.5,-1189 1071.5,-1189 1071.5,-1183 1077.5,-1177 1083.5,-1177 1083.5,-1177 1185.5,-1177 1185.5,-1177 1191.5,-1177 1197.5,-1183 1197.5,-1189 1197.5,-1189 1197.5,-1201 1197.5,-1201 1197.5,-1207 1191.5,-1213 1185.5,-1213"/>
+<text text-anchor="start" x="1080.5" y="-1196.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00" fill="white">WORKERS (11)</text>
+<text text-anchor="start" x="1077.5" y="-1186.8" font-family="Helvetica,sans-Serif" font-size="9.00" fill="white">every 30 min, idle hourly</text>
+</g>
+<!-- L26&#45;&gt;h4 -->
+<g id="edge16" class="edge">
+<title>L26&#45;&gt;h4</title>
+<path fill="none" stroke="#e65100" stroke-width="2.2" d="M1291.88,-1396.49C1253.28,-1347.32 1188,-1264.16 1154.96,-1222.07"/>
+<polygon fill="#e65100" stroke="#e65100" stroke-width="2.2" points="1157.87,-1219.53 1148.05,-1213.26 1151.81,-1224.29 1157.87,-1219.53"/>
+</g>
+<!-- h5 -->
+<g id="node29" class="node">
+<title>h5</title>
+<path fill="#1565c0" stroke="#1565c0" d="M1359,-1213C1359,-1213 1286,-1213 1286,-1213 1280,-1213 1274,-1207 1274,-1201 1274,-1201 1274,-1189 1274,-1189 1274,-1183 1280,-1177 1286,-1177 1286,-1177 1359,-1177 1359,-1177 1365,-1177 1371,-1183 1371,-1189 1371,-1189 1371,-1201 1371,-1201 1371,-1207 1365,-1213 1359,-1213"/>
+<text text-anchor="start" x="1280" y="-1196.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00" fill="white">SCOUTS (5)</text>
+<text text-anchor="start" x="1292" y="-1186.8" font-family="Helvetica,sans-Serif" font-size="9.00" fill="white">every 30 min</text>
+</g>
+<!-- L26&#45;&gt;h5 -->
+<g id="edge28" class="edge">
+<title>L26&#45;&gt;h5</title>
+<path fill="none" stroke="#1565c0" stroke-width="2.2" d="M1322.5,-1396.49C1322.5,-1348.25 1322.5,-1267.29 1322.5,-1224.5"/>
+<polygon fill="#1565c0" stroke="#1565c0" stroke-width="2.2" points="1326.35,-1224.26 1322.5,-1213.26 1318.65,-1224.26 1326.35,-1224.26"/>
+</g>
+<!-- h6 -->
+<g id="node35" class="node">
+<title>h6</title>
+<path fill="#2e7d32" stroke="#2e7d32" d="M1593.5,-1213C1593.5,-1213 1447.5,-1213 1447.5,-1213 1441.5,-1213 1435.5,-1207 1435.5,-1201 1435.5,-1201 1435.5,-1189 1435.5,-1189 1435.5,-1183 1441.5,-1177 1447.5,-1177 1447.5,-1177 1593.5,-1177 1593.5,-1177 1599.5,-1177 1605.5,-1183 1605.5,-1189 1605.5,-1189 1605.5,-1201 1605.5,-1201 1605.5,-1207 1599.5,-1213 1593.5,-1213"/>
+<text text-anchor="start" x="1441.5" y="-1196.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00" fill="white">HIVE BAR 1 BUILDERS</text>
+<text text-anchor="start" x="1461" y="-1186.8" font-family="Helvetica,sans-Serif" font-size="9.00" fill="white">incl. Advertiser + Bouncer</text>
+</g>
+<!-- L26&#45;&gt;h6 -->
+<g id="edge34" class="edge">
+<title>L26&#45;&gt;h6</title>
+<path fill="none" stroke="#2e7d32" stroke-width="2.2" d="M1354.75,-1396.49C1395.49,-1347.22 1464.44,-1263.81 1499.17,-1221.81"/>
+<polygon fill="#2e7d32" stroke="#2e7d32" stroke-width="2.2" points="1502.19,-1224.19 1506.23,-1213.26 1496.26,-1219.28 1502.19,-1224.19"/>
+</g>
+<!-- h7 -->
+<g id="node42" class="node">
+<title>h7</title>
+<path fill="#00838f" stroke="#00838f" d="M1778,-1213C1778,-1213 1709,-1213 1709,-1213 1703,-1213 1697,-1207 1697,-1201 1697,-1201 1697,-1189 1697,-1189 1697,-1183 1703,-1177 1709,-1177 1709,-1177 1778,-1177 1778,-1177 1784,-1177 1790,-1183 1790,-1189 1790,-1189 1790,-1201 1790,-1201 1790,-1207 1784,-1213 1778,-1213"/>
+<text text-anchor="start" x="1703" y="-1192.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00" fill="white">OUTREACH</text>
+</g>
+<!-- L26&#45;&gt;h7 -->
+<g id="edge41" class="edge">
+<title>L26&#45;&gt;h7</title>
+<path fill="none" stroke="#00838f" stroke-width="2.2" d="M1345.93,-1396.2C1375.7,-1350.04 1431.57,-1274.97 1500.5,-1237 1516.49,-1228.19 1619.11,-1212.91 1685.79,-1203.7"/>
+<polygon fill="#00838f" stroke="#00838f" stroke-width="2.2" points="1686.6,-1207.47 1696.97,-1202.16 1685.55,-1199.85 1686.6,-1207.47"/>
+</g>
+<!-- b31 -->
+<g id="node5" class="node">
+<title>b31</title>
+<path fill="#e1bee7" stroke="#2e7d32" stroke-width="2.5" d="M227,-1145C227,-1145 12,-1145 12,-1145 6,-1145 0,-1139 0,-1133 0,-1133 0,-1082 0,-1082 0,-1076 6,-1070 12,-1070 12,-1070 227,-1070 227,-1070 233,-1070 239,-1076 239,-1082 239,-1082 239,-1133 239,-1133 239,-1139 233,-1145 227,-1145"/>
+<text text-anchor="start" x="25.5" y="-1130.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE31 Reviewer Improver B</text>
+<text text-anchor="start" x="40" y="-1116.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Reviews Evolution prompts · 33 */3</text>
+<polygon fill="#2e7d32" stroke="transparent" points="7.5,-1099.5 7.5,-1111.5 232.5,-1111.5 232.5,-1099.5 7.5,-1099.5"/>
+<text text-anchor="start" x="99" y="-1104.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="55.5" y="-1090.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:25 PM ET</text>
+<text text-anchor="start" x="8.5" y="-1077.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">Queen Bee | 2026&#45;10&#45;12 15:25 | BEE31 | prom…</text>
+</g>
+<!-- h0&#45;&gt;b31 -->
+<g id="edge4" class="edge">
+<title>h0&#45;&gt;b31</title>
+<path fill="none" stroke="#7b1fa2" stroke-width="2.2" d="M214.7,-1176.9C204.44,-1169.53 191.93,-1160.54 179.4,-1151.54"/>
+<polygon fill="#7b1fa2" stroke="#7b1fa2" stroke-width="2.2" points="181.48,-1148.29 170.3,-1145 176.99,-1154.55 181.48,-1148.29"/>
+</g>
+<!-- bCHK -->
+<g id="node6" class="node">
+<title>bCHK</title>
+<path fill="#e1bee7" stroke="#2e7d32" stroke-width="2.5" d="M215.5,-1038C215.5,-1038 23.5,-1038 23.5,-1038 17.5,-1038 11.5,-1032 11.5,-1026 11.5,-1026 11.5,-975 11.5,-975 11.5,-969 17.5,-963 23.5,-963 23.5,-963 215.5,-963 215.5,-963 221.5,-963 227.5,-969 227.5,-975 227.5,-975 227.5,-1026 227.5,-1026 227.5,-1032 221.5,-1038 215.5,-1038"/>
+<text text-anchor="start" x="77" y="-1023.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">Checker Bee</text>
+<text text-anchor="start" x="54.5" y="-1009.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Queen&#39;s monitor · :33 hourly</text>
+<polygon fill="#2e7d32" stroke="transparent" points="18.5,-992.5 18.5,-1004.5 220.5,-1004.5 220.5,-992.5 18.5,-992.5"/>
+<text text-anchor="start" x="98.5" y="-997.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="55" y="-983.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:44 PM ET</text>
+<text text-anchor="start" x="19.5" y="-970.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">Checker Bee | 0 | 0 | 0 | 0 | HOURLY hive c…</text>
+</g>
+<!-- b31&#45;&gt;bCHK -->
+<g id="edge5" class="edge">
+<title>b31&#45;&gt;bCHK</title>
+<path fill="none" stroke="#7b1fa2" stroke-width="2.2" d="M119.5,-1069.78C119.5,-1063.1 119.5,-1056.06 119.5,-1049.12"/>
+<polygon fill="#7b1fa2" stroke="#7b1fa2" stroke-width="2.2" points="123.35,-1049.03 119.5,-1038.03 115.65,-1049.03 123.35,-1049.03"/>
+</g>
+<!-- b12 -->
+<g id="node7" class="node">
+<title>b12</title>
+<path fill="#e1bee7" stroke="#2e7d32" stroke-width="2.5" d="M217.5,-931C217.5,-931 21.5,-931 21.5,-931 15.5,-931 9.5,-925 9.5,-919 9.5,-919 9.5,-868 9.5,-868 9.5,-862 15.5,-856 21.5,-856 21.5,-856 217.5,-856 217.5,-856 223.5,-856 229.5,-862 229.5,-868 229.5,-868 229.5,-919 229.5,-919 229.5,-925 223.5,-931 217.5,-931"/>
+<text text-anchor="start" x="51" y="-916.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE12 Librarian Bee</text>
+<text text-anchor="start" x="63.5" y="-902.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Tip library · 10,25,40,55</text>
+<polygon fill="#2e7d32" stroke="transparent" points="16.5,-885.5 16.5,-897.5 222.5,-897.5 222.5,-885.5 16.5,-885.5"/>
+<text text-anchor="start" x="98.5" y="-890.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="55" y="-876.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:40 PM ET</text>
+<text text-anchor="start" x="17.5" y="-863.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE12 Librarian Bee | tips read 9 | curated…</text>
+</g>
+<!-- bCHK&#45;&gt;b12 -->
+<g id="edge6" class="edge">
+<title>bCHK&#45;&gt;b12</title>
+<path fill="none" stroke="#7b1fa2" stroke-width="2.2" d="M119.5,-962.78C119.5,-956.1 119.5,-949.06 119.5,-942.12"/>
+<polygon fill="#7b1fa2" stroke="#7b1fa2" stroke-width="2.2" points="123.35,-942.03 119.5,-931.03 115.65,-942.03 123.35,-942.03"/>
+</g>
+<!-- b27 -->
+<g id="node8" class="node">
+<title>b27</title>
+<path fill="#e1bee7" stroke="#2e7d32" stroke-width="2.5" d="M219.5,-824C219.5,-824 19.5,-824 19.5,-824 13.5,-824 7.5,-818 7.5,-812 7.5,-812 7.5,-761 7.5,-761 7.5,-755 13.5,-749 19.5,-749 19.5,-749 219.5,-749 219.5,-749 225.5,-749 231.5,-755 231.5,-761 231.5,-761 231.5,-812 231.5,-812 231.5,-818 225.5,-824 219.5,-824"/>
+<text text-anchor="start" x="44" y="-809.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE27 Messenger Bee</text>
+<text text-anchor="start" x="76.5" y="-795.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Hive comms · 7,37</text>
+<polygon fill="#2e7d32" stroke="transparent" points="14.5,-778.5 14.5,-790.5 224.5,-790.5 224.5,-778.5 14.5,-778.5"/>
+<text text-anchor="start" x="98.5" y="-783.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="55" y="-769.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:25 PM ET</text>
+<text text-anchor="start" x="15.5" y="-756.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE27 Messenger Bee | 0 | 0 | 0 | 0 | messe…</text>
+</g>
+<!-- b12&#45;&gt;b27 -->
+<g id="edge7" class="edge">
+<title>b12&#45;&gt;b27</title>
+<path fill="none" stroke="#7b1fa2" stroke-width="2.2" d="M119.5,-855.78C119.5,-849.1 119.5,-842.06 119.5,-835.12"/>
+<polygon fill="#7b1fa2" stroke="#7b1fa2" stroke-width="2.2" points="123.35,-835.03 119.5,-824.03 115.65,-835.03 123.35,-835.03"/>
+</g>
+<!-- b25 -->
+<g id="node10" class="node">
+<title>b25</title>
+<path fill="#ffcdd2" stroke="#2e7d32" stroke-width="2.5" d="M484,-1145C484,-1145 269,-1145 269,-1145 263,-1145 257,-1139 257,-1133 257,-1133 257,-1082 257,-1082 257,-1076 263,-1070 269,-1070 269,-1070 484,-1070 484,-1070 490,-1070 496,-1076 496,-1082 496,-1082 496,-1133 496,-1133 496,-1139 490,-1145 484,-1145"/>
+<text text-anchor="start" x="313" y="-1130.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE25 Warrior Bee</text>
+<text text-anchor="start" x="312.5" y="-1116.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">External threats · :46 hourly</text>
+<polygon fill="#2e7d32" stroke="transparent" points="264.5,-1099.5 264.5,-1111.5 489.5,-1111.5 489.5,-1099.5 264.5,-1099.5"/>
+<text text-anchor="start" x="356" y="-1104.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="312.5" y="-1090.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:33 PM ET</text>
+<text text-anchor="start" x="265.5" y="-1077.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">Queen Bee | 2026&#45;10&#45;12 15:33 | BEE25 (Chess…</text>
+</g>
+<!-- h1&#45;&gt;b25 -->
+<g id="edge9" class="edge">
+<title>h1&#45;&gt;b25</title>
+<path fill="none" stroke="#c62828" stroke-width="2.2" d="M429.94,-1176.7C424.72,-1170.03 418.48,-1162.07 412.14,-1153.98"/>
+<polygon fill="#c62828" stroke="#c62828" stroke-width="2.2" points="415.07,-1151.48 405.26,-1145.2 409.01,-1156.23 415.07,-1151.48"/>
+</g>
+<!-- b24 -->
+<g id="node11" class="node">
+<title>b24</title>
+<path fill="#ffcdd2" stroke="#2e7d32" stroke-width="2.5" d="M476.5,-1038C476.5,-1038 276.5,-1038 276.5,-1038 270.5,-1038 264.5,-1032 264.5,-1026 264.5,-1026 264.5,-975 264.5,-975 264.5,-969 270.5,-963 276.5,-963 276.5,-963 476.5,-963 476.5,-963 482.5,-963 488.5,-969 488.5,-975 488.5,-975 488.5,-1026 488.5,-1026 488.5,-1032 482.5,-1038 476.5,-1038"/>
+<text text-anchor="start" x="280" y="-1023.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE24 Warrior Bee (retiring)</text>
+<text text-anchor="start" x="313" y="-1009.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Internal threats · :13 hourly</text>
+<polygon fill="#2e7d32" stroke="transparent" points="271.5,-992.5 271.5,-1004.5 481.5,-1004.5 481.5,-992.5 271.5,-992.5"/>
+<text text-anchor="start" x="355.5" y="-997.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="312" y="-983.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:28 PM ET</text>
+<text text-anchor="start" x="272.5" y="-970.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE24 Warrior Bee | pass 18, 0 findings, BT…</text>
+</g>
+<!-- b25&#45;&gt;b24 -->
+<g id="edge10" class="edge">
+<title>b25&#45;&gt;b24</title>
+<path fill="none" stroke="#c62828" stroke-width="2.2" d="M376.5,-1069.78C376.5,-1063.1 376.5,-1056.06 376.5,-1049.12"/>
+<polygon fill="#c62828" stroke="#c62828" stroke-width="2.2" points="380.35,-1049.03 376.5,-1038.03 372.65,-1049.03 380.35,-1049.03"/>
+</g>
+<!-- b28 -->
+<g id="node13" class="node">
+<title>b28</title>
+<path fill="#d7ccc8" stroke="#2e7d32" stroke-width="2.5" d="M758.5,-1145C758.5,-1145 526.5,-1145 526.5,-1145 520.5,-1145 514.5,-1139 514.5,-1133 514.5,-1133 514.5,-1082 514.5,-1082 514.5,-1076 520.5,-1070 526.5,-1070 526.5,-1070 758.5,-1070 758.5,-1070 764.5,-1070 770.5,-1076 770.5,-1082 770.5,-1082 770.5,-1133 770.5,-1133 770.5,-1139 764.5,-1145 758.5,-1145"/>
+<text text-anchor="start" x="585" y="-1130.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE28 Random B</text>
+<text text-anchor="start" x="606.5" y="-1116.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Booster · 20 */2</text>
+<polygon fill="#2e7d32" stroke="transparent" points="521.5,-1099.5 521.5,-1111.5 763.5,-1111.5 763.5,-1099.5 521.5,-1099.5"/>
+<text text-anchor="start" x="621.5" y="-1104.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="578" y="-1090.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:10 PM ET</text>
+<text text-anchor="start" x="522.5" y="-1077.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE28 Random B | noted COMMUNICATION HUB ru…</text>
+</g>
+<!-- h2&#45;&gt;b28 -->
+<g id="edge12" class="edge">
+<title>h2&#45;&gt;b28</title>
+<path fill="none" stroke="#6d4c41" stroke-width="2.2" d="M642.5,-1176.7C642.5,-1170.67 642.5,-1163.58 642.5,-1156.3"/>
+<polygon fill="#6d4c41" stroke="#6d4c41" stroke-width="2.2" points="646.35,-1156.2 642.5,-1145.2 638.65,-1156.2 646.35,-1156.2"/>
+</g>
+<!-- b29 -->
+<g id="node14" class="node">
+<title>b29</title>
+<path fill="#d7ccc8" stroke="#2e7d32" stroke-width="2.5" d="M744.5,-1038C744.5,-1038 540.5,-1038 540.5,-1038 534.5,-1038 528.5,-1032 528.5,-1026 528.5,-1026 528.5,-975 528.5,-975 528.5,-969 534.5,-963 540.5,-963 540.5,-963 744.5,-963 744.5,-963 750.5,-963 756.5,-969 756.5,-975 756.5,-975 756.5,-1026 756.5,-1026 756.5,-1032 750.5,-1038 744.5,-1038"/>
+<text text-anchor="start" x="572.5" y="-1023.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE29 Efficiency Bee</text>
+<text text-anchor="start" x="569" y="-1009.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Usage efficiency + fixes · 26 */2</text>
+<polygon fill="#2e7d32" stroke="transparent" points="535.5,-992.5 535.5,-1004.5 749.5,-1004.5 749.5,-992.5 535.5,-992.5"/>
+<text text-anchor="start" x="621.5" y="-997.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="578" y="-983.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:21 PM ET</text>
+<text text-anchor="start" x="536.5" y="-970.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">Grok Bot (Chess) | BEE29 may fix other bees…</text>
+</g>
+<!-- b28&#45;&gt;b29 -->
+<g id="edge13" class="edge">
+<title>b28&#45;&gt;b29</title>
+<path fill="none" stroke="#6d4c41" stroke-width="2.2" d="M642.5,-1069.78C642.5,-1063.1 642.5,-1056.06 642.5,-1049.12"/>
+<polygon fill="#6d4c41" stroke="#6d4c41" stroke-width="2.2" points="646.35,-1049.03 642.5,-1038.03 638.65,-1049.03 646.35,-1049.03"/>
+</g>
+<!-- care -->
+<g id="node16" class="node">
+<title>care</title>
+<path fill="none" stroke="#546e7a" stroke-dasharray="5,2" d="M930.5,-1125.5C930.5,-1125.5 800.5,-1125.5 800.5,-1125.5 794.5,-1125.5 788.5,-1119.5 788.5,-1113.5 788.5,-1113.5 788.5,-1101.5 788.5,-1101.5 788.5,-1095.5 794.5,-1089.5 800.5,-1089.5 800.5,-1089.5 930.5,-1089.5 930.5,-1089.5 936.5,-1089.5 942.5,-1095.5 942.5,-1101.5 942.5,-1101.5 942.5,-1113.5 942.5,-1113.5 942.5,-1119.5 936.5,-1125.5 930.5,-1125.5"/>
+<text text-anchor="middle" x="865.5" y="-1110.5" font-family="Helvetica,sans-Serif" font-size="10.00">Care Checker</text>
+<text text-anchor="middle" x="865.5" y="-1099.5" font-family="Helvetica,sans-Serif" font-size="10.00">none yet; first at hive size 52</text>
+</g>
+<!-- h3&#45;&gt;care -->
+<g id="edge15" class="edge">
+<title>h3&#45;&gt;care</title>
+<path fill="none" stroke="#546e7a" stroke-width="2.2" stroke-dasharray="5,2" d="M836.79,-1176.7C841.66,-1165.11 848.2,-1149.6 853.8,-1136.3"/>
+<polygon fill="#546e7a" stroke="#546e7a" stroke-width="2.2" points="857.51,-1137.41 858.23,-1125.78 850.41,-1134.42 857.51,-1137.41"/>
+</g>
+<!-- b45 -->
+<g id="node18" class="node">
+<title>b45</title>
+<path fill="#ffe0b2" stroke="#2e7d32" stroke-width="2.5" d="M1182,-1145C1182,-1145 973,-1145 973,-1145 967,-1145 961,-1139 961,-1133 961,-1133 961,-1082 961,-1082 961,-1076 967,-1070 973,-1070 973,-1070 1182,-1070 1182,-1070 1188,-1070 1194,-1076 1194,-1082 1194,-1082 1194,-1133 1194,-1133 1194,-1139 1188,-1145 1182,-1145"/>
+<text text-anchor="start" x="1002.5" y="-1130.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE45 Diagram Maker</text>
+<text text-anchor="start" x="1034" y="-1116.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Worker · :00 hourly</text>
+<polygon fill="#2e7d32" stroke="transparent" points="968.5,-1099.5 968.5,-1111.5 1187.5,-1111.5 1187.5,-1099.5 968.5,-1099.5"/>
+<text text-anchor="start" x="1057" y="-1104.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1013.5" y="-1090.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:11 PM ET</text>
+<text text-anchor="start" x="969.5" y="-1077.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE45 Diagram Maker | HOURLY | found 0 | at…</text>
+</g>
+<!-- h4&#45;&gt;b45 -->
+<g id="edge17" class="edge">
+<title>h4&#45;&gt;b45</title>
+<path fill="none" stroke="#e65100" stroke-width="2.2" d="M1122.97,-1176.7C1118.62,-1170.17 1113.44,-1162.41 1108.16,-1154.49"/>
+<polygon fill="#e65100" stroke="#e65100" stroke-width="2.2" points="1111.27,-1152.21 1101.97,-1145.2 1104.86,-1156.49 1111.27,-1152.21"/>
+</g>
+<!-- b47 -->
+<g id="node19" class="node">
+<title>b47</title>
+<path fill="#ffe0b2" stroke="#2e7d32" stroke-width="2.5" d="M1178.5,-1038C1178.5,-1038 972.5,-1038 972.5,-1038 966.5,-1038 960.5,-1032 960.5,-1026 960.5,-1026 960.5,-975 960.5,-975 960.5,-969 966.5,-963 972.5,-963 972.5,-963 1178.5,-963 1178.5,-963 1184.5,-963 1190.5,-969 1190.5,-975 1190.5,-975 1190.5,-1026 1190.5,-1026 1190.5,-1032 1184.5,-1038 1178.5,-1038"/>
+<text text-anchor="start" x="1011" y="-1023.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE47 SEO Auditor</text>
+<text text-anchor="start" x="1038.5" y="-1009.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Worker · :03/:33</text>
+<polygon fill="#2e7d32" stroke="transparent" points="967.5,-992.5 967.5,-1004.5 1183.5,-1004.5 1183.5,-992.5 967.5,-992.5"/>
+<text text-anchor="start" x="1054.5" y="-997.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1011" y="-983.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:44 PM ET</text>
+<text text-anchor="start" x="968.5" y="-970.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE47 SEO Auditor | 0 found | 0 attempted |…</text>
+</g>
+<!-- b45&#45;&gt;b47 -->
+<g id="edge18" class="edge">
+<title>b45&#45;&gt;b47</title>
+<path fill="none" stroke="#e65100" stroke-width="2.2" d="M1076.8,-1069.78C1076.67,-1063.1 1076.54,-1056.06 1076.41,-1049.12"/>
+<polygon fill="#e65100" stroke="#e65100" stroke-width="2.2" points="1080.25,-1048.95 1076.2,-1038.03 1072.56,-1049.1 1080.25,-1048.95"/>
+</g>
+<!-- b39 -->
+<g id="node20" class="node">
+<title>b39</title>
+<path fill="#ffe0b2" stroke="#2e7d32" stroke-width="2.5" d="M1169.5,-931C1169.5,-931 979.5,-931 979.5,-931 973.5,-931 967.5,-925 967.5,-919 967.5,-919 967.5,-868 967.5,-868 967.5,-862 973.5,-856 979.5,-856 979.5,-856 1169.5,-856 1169.5,-856 1175.5,-856 1181.5,-862 1181.5,-868 1181.5,-868 1181.5,-919 1181.5,-919 1181.5,-925 1175.5,-931 1169.5,-931"/>
+<text text-anchor="start" x="1017.5" y="-916.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE39 QA Tester</text>
+<text text-anchor="start" x="1030.5" y="-902.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Worker · :06 hourly</text>
+<polygon fill="#2e7d32" stroke="transparent" points="974.5,-885.5 974.5,-897.5 1174.5,-897.5 1174.5,-885.5 974.5,-885.5"/>
+<text text-anchor="start" x="1053.5" y="-890.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1010" y="-876.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:20 PM ET</text>
+<text text-anchor="start" x="975.5" y="-863.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE39 QA Tester | HOURLY | 0 | 0 | 0 | 0 | …</text>
+</g>
+<!-- b47&#45;&gt;b39 -->
+<g id="edge19" class="edge">
+<title>b47&#45;&gt;b39</title>
+<path fill="none" stroke="#e65100" stroke-width="2.2" d="M1075.15,-962.78C1075.09,-956.1 1075.02,-949.06 1074.95,-942.12"/>
+<polygon fill="#e65100" stroke="#e65100" stroke-width="2.2" points="1078.8,-941.99 1074.85,-931.03 1071.1,-942.06 1078.8,-941.99"/>
+</g>
+<!-- b50 -->
+<g id="node21" class="node">
+<title>b50</title>
+<path fill="#ffe0b2" stroke="#2e7d32" stroke-width="2.5" d="M1175.5,-824C1175.5,-824 971.5,-824 971.5,-824 965.5,-824 959.5,-818 959.5,-812 959.5,-812 959.5,-761 959.5,-761 959.5,-755 965.5,-749 971.5,-749 971.5,-749 1175.5,-749 1175.5,-749 1181.5,-749 1187.5,-755 1187.5,-761 1187.5,-761 1187.5,-812 1187.5,-812 1187.5,-818 1181.5,-824 1175.5,-824"/>
+<text text-anchor="start" x="967.5" y="-809.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE50 Pixel Art &amp; Sprite Maker</text>
+<text text-anchor="start" x="1036.5" y="-795.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Worker · :09/:39</text>
+<polygon fill="#2e7d32" stroke="transparent" points="966.5,-778.5 966.5,-790.5 1180.5,-790.5 1180.5,-778.5 966.5,-778.5"/>
+<text text-anchor="start" x="1052.5" y="-783.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1009" y="-769.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:29 PM ET</text>
+<text text-anchor="start" x="975" y="-756.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE50 Pixel Art &amp; Sprite Maker | 0 | 0 | 0 …</text>
+</g>
+<!-- b39&#45;&gt;b50 -->
+<g id="edge20" class="edge">
+<title>b39&#45;&gt;b50</title>
+<path fill="none" stroke="#e65100" stroke-width="2.2" d="M1074.15,-855.78C1074.09,-849.1 1074.02,-842.06 1073.95,-835.12"/>
+<polygon fill="#e65100" stroke="#e65100" stroke-width="2.2" points="1077.8,-834.99 1073.85,-824.03 1070.1,-835.06 1077.8,-834.99"/>
+</g>
+<!-- b5 -->
+<g id="node22" class="node">
+<title>b5</title>
+<path fill="#ffe0b2" stroke="#2e7d32" stroke-width="2.5" d="M1171.5,-717C1171.5,-717 975.5,-717 975.5,-717 969.5,-717 963.5,-711 963.5,-705 963.5,-705 963.5,-654 963.5,-654 963.5,-648 969.5,-642 975.5,-642 975.5,-642 1171.5,-642 1171.5,-642 1177.5,-642 1183.5,-648 1183.5,-654 1183.5,-654 1183.5,-705 1183.5,-705 1183.5,-711 1177.5,-717 1171.5,-717"/>
+<text text-anchor="start" x="1013" y="-702.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE5 Code Helper</text>
+<text text-anchor="start" x="1029.5" y="-688.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Worker · :12 hourly</text>
+<polygon fill="#2e7d32" stroke="transparent" points="970.5,-671.5 970.5,-683.5 1176.5,-683.5 1176.5,-671.5 970.5,-671.5"/>
+<text text-anchor="start" x="1052.5" y="-676.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1009" y="-662.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:07 PM ET</text>
+<text text-anchor="start" x="971.5" y="-649.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE5 Code Helper | 0 | 0 | 0 | 0 | HOURLY c…</text>
+</g>
+<!-- b50&#45;&gt;b5 -->
+<g id="edge21" class="edge">
+<title>b50&#45;&gt;b5</title>
+<path fill="none" stroke="#e65100" stroke-width="2.2" d="M1073.5,-748.78C1073.5,-742.1 1073.5,-735.06 1073.5,-728.12"/>
+<polygon fill="#e65100" stroke="#e65100" stroke-width="2.2" points="1077.35,-728.03 1073.5,-717.03 1069.65,-728.03 1077.35,-728.03"/>
+</g>
+<!-- b48 -->
+<g id="node23" class="node">
+<title>b48</title>
+<path fill="#ffe0b2" stroke="#2e7d32" stroke-width="2.5" d="M1170,-610C1170,-610 977,-610 977,-610 971,-610 965,-604 965,-598 965,-598 965,-547 965,-547 965,-541 971,-535 977,-535 977,-535 1170,-535 1170,-535 1176,-535 1182,-541 1182,-547 1182,-547 1182,-598 1182,-598 1182,-604 1176,-610 1170,-610"/>
+<text text-anchor="start" x="982" y="-595.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE48 Accessibility Auditor</text>
+<text text-anchor="start" x="1037" y="-581.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Worker · :15/:45</text>
+<polygon fill="#2e7d32" stroke="transparent" points="972.5,-564.5 972.5,-576.5 1175.5,-576.5 1175.5,-564.5 972.5,-564.5"/>
+<text text-anchor="start" x="1053" y="-569.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1009.5" y="-555.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:34 PM ET</text>
+<text text-anchor="start" x="973.5" y="-542.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE48 Accessibility Auditor | 0 found | 0 a…</text>
+</g>
+<!-- b5&#45;&gt;b48 -->
+<g id="edge22" class="edge">
+<title>b5&#45;&gt;b48</title>
+<path fill="none" stroke="#e65100" stroke-width="2.2" d="M1073.5,-641.78C1073.5,-635.1 1073.5,-628.06 1073.5,-621.12"/>
+<polygon fill="#e65100" stroke="#e65100" stroke-width="2.2" points="1077.35,-621.03 1073.5,-610.03 1069.65,-621.03 1077.35,-621.03"/>
+</g>
+<!-- b49 -->
+<g id="node24" class="node">
+<title>b49</title>
+<path fill="#ffe0b2" stroke="#2e7d32" stroke-width="2.5" d="M1173.5,-503C1173.5,-503 973.5,-503 973.5,-503 967.5,-503 961.5,-497 961.5,-491 961.5,-491 961.5,-440 961.5,-440 961.5,-434 967.5,-428 973.5,-428 973.5,-428 1173.5,-428 1173.5,-428 1179.5,-428 1185.5,-434 1185.5,-440 1185.5,-440 1185.5,-491 1185.5,-491 1185.5,-497 1179.5,-503 1173.5,-503"/>
+<text text-anchor="start" x="969.5" y="-488.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE49 Quiz &amp; Flashcard Maker</text>
+<text text-anchor="start" x="1036.5" y="-474.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Worker · :18/:48</text>
+<polygon fill="#2e7d32" stroke="transparent" points="968.5,-457.5 968.5,-469.5 1178.5,-469.5 1178.5,-457.5 968.5,-457.5"/>
+<text text-anchor="start" x="1052.5" y="-462.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1009" y="-448.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:40 PM ET</text>
+<text text-anchor="start" x="972.5" y="-435.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE49 Quiz &amp; Flashcard Maker | 0 | 0 | 0 | …</text>
+</g>
+<!-- b48&#45;&gt;b49 -->
+<g id="edge23" class="edge">
+<title>b48&#45;&gt;b49</title>
+<path fill="none" stroke="#e65100" stroke-width="2.2" d="M1073.5,-534.78C1073.5,-528.1 1073.5,-521.06 1073.5,-514.12"/>
+<polygon fill="#e65100" stroke="#e65100" stroke-width="2.2" points="1077.35,-514.03 1073.5,-503.03 1069.65,-514.03 1077.35,-514.03"/>
+</g>
+<!-- b8 -->
+<g id="node25" class="node">
+<title>b8</title>
+<path fill="#ffe0b2" stroke="#2e7d32" stroke-width="2.5" d="M1175.5,-396C1175.5,-396 971.5,-396 971.5,-396 965.5,-396 959.5,-390 959.5,-384 959.5,-384 959.5,-333 959.5,-333 959.5,-327 965.5,-321 971.5,-321 971.5,-321 1175.5,-321 1175.5,-321 1181.5,-321 1187.5,-327 1187.5,-333 1187.5,-333 1187.5,-384 1187.5,-384 1187.5,-390 1181.5,-396 1175.5,-396"/>
+<text text-anchor="start" x="1014" y="-381.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE8 Chess Tutor</text>
+<text text-anchor="start" x="989" y="-367.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Worker (exempt from swap) · :21/:51</text>
+<polygon fill="#2e7d32" stroke="transparent" points="966.5,-350.5 966.5,-362.5 1180.5,-362.5 1180.5,-350.5 966.5,-350.5"/>
+<text text-anchor="start" x="1052.5" y="-355.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1009" y="-341.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:33 PM ET</text>
+<text text-anchor="start" x="967.5" y="-328.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BTC Chess Tutor (BEE8) | 0 found | 0 attemp…</text>
+</g>
+<!-- b49&#45;&gt;b8 -->
+<g id="edge24" class="edge">
+<title>b49&#45;&gt;b8</title>
+<path fill="none" stroke="#e65100" stroke-width="2.2" d="M1073.5,-427.78C1073.5,-421.1 1073.5,-414.06 1073.5,-407.12"/>
+<polygon fill="#e65100" stroke="#e65100" stroke-width="2.2" points="1077.35,-407.03 1073.5,-396.03 1069.65,-407.03 1077.35,-407.03"/>
+</g>
+<!-- b44 -->
+<g id="node26" class="node">
+<title>b44</title>
+<path fill="#ffe0b2" stroke="#2e7d32" stroke-width="2.5" d="M1178.5,-289C1178.5,-289 968.5,-289 968.5,-289 962.5,-289 956.5,-283 956.5,-277 956.5,-277 956.5,-226 956.5,-226 956.5,-220 962.5,-214 968.5,-214 968.5,-214 1178.5,-214 1178.5,-214 1184.5,-214 1190.5,-220 1190.5,-226 1190.5,-226 1190.5,-277 1190.5,-277 1190.5,-283 1184.5,-289 1178.5,-289"/>
+<text text-anchor="start" x="993" y="-274.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE44 Prompt Engineer</text>
+<text text-anchor="start" x="1029.5" y="-260.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Worker · :24 hourly</text>
+<polygon fill="#2e7d32" stroke="transparent" points="963.5,-243.5 963.5,-255.5 1183.5,-255.5 1183.5,-243.5 963.5,-243.5"/>
+<text text-anchor="start" x="1052.5" y="-248.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1009" y="-234.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:42 PM ET</text>
+<text text-anchor="start" x="964.5" y="-221.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE44 Prompt Engineer | 0 found | 0 attempt…</text>
+</g>
+<!-- b8&#45;&gt;b44 -->
+<g id="edge25" class="edge">
+<title>b8&#45;&gt;b44</title>
+<path fill="none" stroke="#e65100" stroke-width="2.2" d="M1073.5,-320.78C1073.5,-314.1 1073.5,-307.06 1073.5,-300.12"/>
+<polygon fill="#e65100" stroke="#e65100" stroke-width="2.2" points="1077.35,-300.03 1073.5,-289.03 1069.65,-300.03 1077.35,-300.03"/>
+</g>
+<!-- b32 -->
+<g id="node27" class="node">
+<title>b32</title>
+<path fill="#ffe0b2" stroke="#2e7d32" stroke-width="2.5" d="M1175,-182C1175,-182 972,-182 972,-182 966,-182 960,-176 960,-170 960,-170 960,-119 960,-119 960,-113 966,-107 972,-107 972,-107 1175,-107 1175,-107 1181,-107 1187,-113 1187,-119 1187,-119 1187,-170 1187,-170 1187,-176 1181,-182 1175,-182"/>
+<text text-anchor="start" x="1013" y="-167.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE32 Faucet Bee</text>
+<text text-anchor="start" x="1037" y="-153.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Worker · :27/:57</text>
+<polygon fill="#2e7d32" stroke="transparent" points="967.5,-136.5 967.5,-148.5 1180.5,-148.5 1180.5,-136.5 967.5,-136.5"/>
+<text text-anchor="start" x="1053" y="-141.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1009.5" y="-127.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:44 PM ET</text>
+<text text-anchor="start" x="968.5" y="-114.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE32 Faucet Bee | 5 found | 0 attempted | …</text>
+</g>
+<!-- b44&#45;&gt;b32 -->
+<g id="edge26" class="edge">
+<title>b44&#45;&gt;b32</title>
+<path fill="none" stroke="#e65100" stroke-width="2.2" d="M1073.5,-213.78C1073.5,-207.1 1073.5,-200.06 1073.5,-193.12"/>
+<polygon fill="#e65100" stroke="#e65100" stroke-width="2.2" points="1077.35,-193.03 1073.5,-182.03 1069.65,-193.03 1077.35,-193.03"/>
+</g>
+<!-- b11 -->
+<g id="node28" class="node">
+<title>b11</title>
+<path fill="#ffe0b2" stroke="#2e7d32" stroke-width="2.5" d="M1174,-75C1174,-75 973,-75 973,-75 967,-75 961,-69 961,-63 961,-63 961,-12 961,-12 961,-6 967,0 973,0 973,0 1174,0 1174,0 1180,0 1186,-6 1186,-12 1186,-12 1186,-63 1186,-63 1186,-69 1180,-75 1174,-75"/>
+<text text-anchor="start" x="1016.5" y="-60.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE11 Crazy Bee</text>
+<text text-anchor="start" x="986.5" y="-46.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Worker (outside&#45;the&#45;box BTC) · :01/:31</text>
+<polygon fill="#2e7d32" stroke="transparent" points="968.5,-29.5 968.5,-41.5 1179.5,-41.5 1179.5,-29.5 968.5,-29.5"/>
+<text text-anchor="start" x="1053" y="-34.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1009.5" y="-20.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:11 PM ET</text>
+<text text-anchor="start" x="969.5" y="-7.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE11 Crazy Bee | 0 | 0 | 0 | 0 | ack COMMU…</text>
+</g>
+<!-- b32&#45;&gt;b11 -->
+<g id="edge27" class="edge">
+<title>b32&#45;&gt;b11</title>
+<path fill="none" stroke="#e65100" stroke-width="2.2" d="M1073.5,-106.78C1073.5,-100.1 1073.5,-93.06 1073.5,-86.12"/>
+<polygon fill="#e65100" stroke="#e65100" stroke-width="2.2" points="1077.35,-86.03 1073.5,-75.03 1069.65,-86.03 1077.35,-86.03"/>
+</g>
+<!-- b40 -->
+<g id="node30" class="node">
+<title>b40</title>
+<path fill="#bbdefb" stroke="#2e7d32" stroke-width="2.5" d="M1421,-1145C1421,-1145 1224,-1145 1224,-1145 1218,-1145 1212,-1139 1212,-1133 1212,-1133 1212,-1082 1212,-1082 1212,-1076 1218,-1070 1224,-1070 1224,-1070 1421,-1070 1421,-1070 1427,-1070 1433,-1076 1433,-1082 1433,-1082 1433,-1133 1433,-1133 1433,-1139 1427,-1145 1421,-1145"/>
+<text text-anchor="start" x="1265.5" y="-1130.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE40 Scout Bee</text>
+<text text-anchor="start" x="1276" y="-1116.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Scout: forums · 1,31</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1219.5,-1099.5 1219.5,-1111.5 1426.5,-1111.5 1426.5,-1099.5 1219.5,-1099.5"/>
+<text text-anchor="start" x="1302" y="-1104.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1258.5" y="-1090.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:48 PM ET</text>
+<text text-anchor="start" x="1220.5" y="-1077.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE40 Scout Bee | 0 | 0 | 0 | 0 BTC | forum…</text>
+</g>
+<!-- h5&#45;&gt;b40 -->
+<g id="edge29" class="edge">
+<title>h5&#45;&gt;b40</title>
+<path fill="none" stroke="#1565c0" stroke-width="2.2" d="M1322.5,-1176.7C1322.5,-1170.67 1322.5,-1163.58 1322.5,-1156.3"/>
+<polygon fill="#1565c0" stroke="#1565c0" stroke-width="2.2" points="1326.35,-1156.2 1322.5,-1145.2 1318.65,-1156.2 1326.35,-1156.2"/>
+</g>
+<!-- b14 -->
+<g id="node31" class="node">
+<title>b14</title>
+<path fill="#bbdefb" stroke="#2e7d32" stroke-width="2.5" d="M1418,-1038C1418,-1038 1227,-1038 1227,-1038 1221,-1038 1215,-1032 1215,-1026 1215,-1026 1215,-975 1215,-975 1215,-969 1221,-963 1227,-963 1227,-963 1418,-963 1418,-963 1424,-963 1430,-969 1430,-975 1430,-975 1430,-1026 1430,-1026 1430,-1032 1424,-1038 1418,-1038"/>
+<text text-anchor="start" x="1265.5" y="-1023.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE14 Scout Bee</text>
+<text text-anchor="start" x="1250" y="-1009.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Scout: bounty/gig boards · 7,37</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1222.5,-992.5 1222.5,-1004.5 1423.5,-1004.5 1423.5,-992.5 1222.5,-992.5"/>
+<text text-anchor="start" x="1302" y="-997.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1258.5" y="-983.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:29 PM ET</text>
+<text text-anchor="start" x="1223.5" y="-970.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE14 Scout Bee | 0 | 0 | 0 | 0 | short run…</text>
+</g>
+<!-- b40&#45;&gt;b14 -->
+<g id="edge30" class="edge">
+<title>b40&#45;&gt;b14</title>
+<path fill="none" stroke="#1565c0" stroke-width="2.2" d="M1322.5,-1069.78C1322.5,-1063.1 1322.5,-1056.06 1322.5,-1049.12"/>
+<polygon fill="#1565c0" stroke="#1565c0" stroke-width="2.2" points="1326.35,-1049.03 1322.5,-1038.03 1318.65,-1049.03 1326.35,-1049.03"/>
+</g>
+<!-- b51 -->
+<g id="node32" class="node">
+<title>b51</title>
+<path fill="#bbdefb" stroke="#2e7d32" stroke-width="2.5" d="M1421,-931C1421,-931 1224,-931 1224,-931 1218,-931 1212,-925 1212,-919 1212,-919 1212,-868 1212,-868 1212,-862 1218,-856 1224,-856 1224,-856 1421,-856 1421,-856 1427,-856 1433,-862 1433,-868 1433,-868 1433,-919 1433,-919 1433,-925 1427,-931 1421,-931"/>
+<text text-anchor="start" x="1265.5" y="-916.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE51 Scout Bee</text>
+<text text-anchor="start" x="1228" y="-902.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Scout: APIs &amp; agent marketplaces · 13,43</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1219.5,-885.5 1219.5,-897.5 1426.5,-897.5 1426.5,-885.5 1219.5,-885.5"/>
+<text text-anchor="start" x="1302" y="-890.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1258.5" y="-876.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:31 PM ET</text>
+<text text-anchor="start" x="1220.5" y="-863.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE51 Scout Bee | 0 | 0 | 0 | 0 BTC | watch…</text>
+</g>
+<!-- b14&#45;&gt;b51 -->
+<g id="edge31" class="edge">
+<title>b14&#45;&gt;b51</title>
+<path fill="none" stroke="#1565c0" stroke-width="2.2" d="M1322.5,-962.78C1322.5,-956.1 1322.5,-949.06 1322.5,-942.12"/>
+<polygon fill="#1565c0" stroke="#1565c0" stroke-width="2.2" points="1326.35,-942.03 1322.5,-931.03 1318.65,-942.03 1326.35,-942.03"/>
+</g>
+<!-- b46 -->
+<g id="node33" class="node">
+<title>b46</title>
+<path fill="#bbdefb" stroke="#2e7d32" stroke-width="2.5" d="M1427,-824C1427,-824 1218,-824 1218,-824 1212,-824 1206,-818 1206,-812 1206,-812 1206,-761 1206,-761 1206,-755 1212,-749 1218,-749 1218,-749 1427,-749 1427,-749 1433,-749 1439,-755 1439,-761 1439,-761 1439,-812 1439,-812 1439,-818 1433,-824 1427,-824"/>
+<text text-anchor="start" x="1265.5" y="-809.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE46 Scout Bee</text>
+<text text-anchor="start" x="1258" y="-795.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Scout: chat archives · 19,49</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1213.5,-778.5 1213.5,-790.5 1432.5,-790.5 1432.5,-778.5 1213.5,-778.5"/>
+<text text-anchor="start" x="1302" y="-783.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1258.5" y="-769.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:35 PM ET</text>
+<text text-anchor="start" x="1214.5" y="-756.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">Queen Bee | 2026&#45;10&#45;12 15:35 | BEE46 | regi…</text>
+</g>
+<!-- b51&#45;&gt;b46 -->
+<g id="edge32" class="edge">
+<title>b51&#45;&gt;b46</title>
+<path fill="none" stroke="#1565c0" stroke-width="2.2" d="M1322.5,-855.78C1322.5,-849.1 1322.5,-842.06 1322.5,-835.12"/>
+<polygon fill="#1565c0" stroke="#1565c0" stroke-width="2.2" points="1326.35,-835.03 1322.5,-824.03 1318.65,-835.03 1326.35,-835.03"/>
+</g>
+<!-- b43 -->
+<g id="node34" class="node">
+<title>b43</title>
+<path fill="#bbdefb" stroke="#2e7d32" stroke-width="2.5" d="M1428,-717C1428,-717 1215,-717 1215,-717 1209,-717 1203,-711 1203,-705 1203,-705 1203,-654 1203,-654 1203,-648 1209,-642 1215,-642 1215,-642 1428,-642 1428,-642 1434,-642 1440,-648 1440,-654 1440,-654 1440,-705 1440,-705 1440,-711 1434,-717 1428,-717"/>
+<text text-anchor="start" x="1264.5" y="-702.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE43 Scout Bee</text>
+<text text-anchor="start" x="1264.5" y="-688.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Scout: new/niche · 25,55</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1210.5,-671.5 1210.5,-683.5 1433.5,-683.5 1433.5,-671.5 1210.5,-671.5"/>
+<text text-anchor="start" x="1301" y="-676.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1257.5" y="-662.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:39 PM ET</text>
+<text text-anchor="start" x="1211.5" y="-649.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE43 Scout Bee | 0 new CONNECTION | 0 | 0 …</text>
+</g>
+<!-- b46&#45;&gt;b43 -->
+<g id="edge33" class="edge">
+<title>b46&#45;&gt;b43</title>
+<path fill="none" stroke="#1565c0" stroke-width="2.2" d="M1322.15,-748.78C1322.09,-742.1 1322.02,-735.06 1321.95,-728.12"/>
+<polygon fill="#1565c0" stroke="#1565c0" stroke-width="2.2" points="1325.8,-727.99 1321.85,-717.03 1318.1,-728.06 1325.8,-727.99"/>
+</g>
+<!-- b18 -->
+<g id="node36" class="node">
+<title>b18</title>
+<path fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.5" d="M1669.5,-1145C1669.5,-1145 1463.5,-1145 1463.5,-1145 1457.5,-1145 1451.5,-1139 1451.5,-1133 1451.5,-1133 1451.5,-1082 1451.5,-1082 1451.5,-1076 1457.5,-1070 1463.5,-1070 1463.5,-1070 1669.5,-1070 1669.5,-1070 1675.5,-1070 1681.5,-1076 1681.5,-1082 1681.5,-1082 1681.5,-1133 1681.5,-1133 1681.5,-1139 1675.5,-1145 1669.5,-1145"/>
+<text text-anchor="start" x="1504.5" y="-1130.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE18 Builder Bee</text>
+<text text-anchor="start" x="1459.5" y="-1116.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Builder: venue &amp; content · 10:05 + 21:05 daily</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1458.5,-1099.5 1458.5,-1111.5 1674.5,-1111.5 1674.5,-1099.5 1458.5,-1099.5"/>
+<text text-anchor="start" x="1545.5" y="-1104.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1502" y="-1090.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:20 PM ET</text>
+<text text-anchor="start" x="1468.5" y="-1077.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE18 Builder Bee | 0 | 0 | 0 | 0 | Hive Ba…</text>
+</g>
+<!-- h6&#45;&gt;b18 -->
+<g id="edge35" class="edge">
+<title>h6&#45;&gt;b18</title>
+<path fill="none" stroke="#2e7d32" stroke-width="2.2" d="M1529.81,-1176.7C1533.24,-1170.32 1537.32,-1162.75 1541.48,-1155.01"/>
+<polygon fill="#2e7d32" stroke="#2e7d32" stroke-width="2.2" points="1544.93,-1156.71 1546.76,-1145.2 1538.15,-1153.06 1544.93,-1156.71"/>
+</g>
+<!-- b19 -->
+<g id="node37" class="node">
+<title>b19</title>
+<path fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.5" d="M1677,-1038C1677,-1038 1464,-1038 1464,-1038 1458,-1038 1452,-1032 1452,-1026 1452,-1026 1452,-975 1452,-975 1452,-969 1458,-963 1464,-963 1464,-963 1677,-963 1677,-963 1683,-963 1689,-969 1689,-975 1689,-975 1689,-1026 1689,-1026 1689,-1032 1683,-1038 1677,-1038"/>
+<text text-anchor="start" x="1497" y="-1023.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE19 Advertiser Bee</text>
+<text text-anchor="start" x="1495" y="-1009.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Advertises Hive Bar 1 · hourly :20</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1459.5,-992.5 1459.5,-1004.5 1682.5,-1004.5 1682.5,-992.5 1459.5,-992.5"/>
+<text text-anchor="start" x="1550" y="-997.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1506.5" y="-983.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:34 PM ET</text>
+<text text-anchor="start" x="1460.5" y="-970.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE19 Advertiser Bee | found 1 venue (Swarm…</text>
+</g>
+<!-- b18&#45;&gt;b19 -->
+<g id="edge36" class="edge">
+<title>b18&#45;&gt;b19</title>
+<path fill="none" stroke="#2e7d32" stroke-width="2.2" d="M1567.9,-1069.78C1568.15,-1063.1 1568.42,-1056.06 1568.69,-1049.12"/>
+<polygon fill="#2e7d32" stroke="#2e7d32" stroke-width="2.2" points="1572.54,-1049.16 1569.11,-1038.03 1564.84,-1048.87 1572.54,-1049.16"/>
+</g>
+<!-- b20 -->
+<g id="node38" class="node">
+<title>b20</title>
+<path fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.5" d="M1673.5,-931C1673.5,-931 1471.5,-931 1471.5,-931 1465.5,-931 1459.5,-925 1459.5,-919 1459.5,-919 1459.5,-868 1459.5,-868 1459.5,-862 1465.5,-856 1471.5,-856 1471.5,-856 1673.5,-856 1673.5,-856 1679.5,-856 1685.5,-862 1685.5,-868 1685.5,-868 1685.5,-919 1685.5,-919 1685.5,-925 1679.5,-931 1673.5,-931"/>
+<text text-anchor="start" x="1510.5" y="-916.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE20 Builder Bee</text>
+<text text-anchor="start" x="1482" y="-902.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Builder: talk room · 10:35 + 21:05 daily</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1466.5,-885.5 1466.5,-897.5 1678.5,-897.5 1678.5,-885.5 1466.5,-885.5"/>
+<text text-anchor="start" x="1551.5" y="-890.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1508" y="-876.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:32 PM ET</text>
+<text text-anchor="start" x="1467.5" y="-863.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE20 Builder Bee | posted v5 links house n…</text>
+</g>
+<!-- b19&#45;&gt;b20 -->
+<g id="edge37" class="edge">
+<title>b19&#45;&gt;b20</title>
+<path fill="none" stroke="#2e7d32" stroke-width="2.2" d="M1571.2,-962.78C1571.33,-956.1 1571.46,-949.06 1571.59,-942.12"/>
+<polygon fill="#2e7d32" stroke="#2e7d32" stroke-width="2.2" points="1575.44,-942.1 1571.8,-931.03 1567.75,-941.95 1575.44,-942.1"/>
+</g>
+<!-- b21 -->
+<g id="node39" class="node">
+<title>b21</title>
+<path fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.5" d="M1679,-824C1679,-824 1470,-824 1470,-824 1464,-824 1458,-818 1458,-812 1458,-812 1458,-761 1458,-761 1458,-755 1464,-749 1470,-749 1470,-749 1679,-749 1679,-749 1685,-749 1691,-755 1691,-761 1691,-761 1691,-812 1691,-812 1691,-818 1685,-824 1679,-824"/>
+<text text-anchor="start" x="1513" y="-809.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE21 Builder Bee</text>
+<text text-anchor="start" x="1480" y="-795.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Builder: moderation · 10:50 + 21:05 daily</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1465.5,-778.5 1465.5,-790.5 1684.5,-790.5 1684.5,-778.5 1465.5,-778.5"/>
+<text text-anchor="start" x="1554" y="-783.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1510.5" y="-769.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:10 PM ET</text>
+<text text-anchor="start" x="1466.5" y="-756.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE21 Builder Bee | hub rule adopted (Queen…</text>
+</g>
+<!-- b20&#45;&gt;b21 -->
+<g id="edge38" class="edge">
+<title>b20&#45;&gt;b21</title>
+<path fill="none" stroke="#2e7d32" stroke-width="2.2" d="M1573.2,-855.78C1573.33,-849.1 1573.46,-842.06 1573.59,-835.12"/>
+<polygon fill="#2e7d32" stroke="#2e7d32" stroke-width="2.2" points="1577.44,-835.1 1573.8,-824.03 1569.75,-834.95 1577.44,-835.1"/>
+</g>
+<!-- b22 -->
+<g id="node40" class="node">
+<title>b22</title>
+<path fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.5" d="M1682.5,-717C1682.5,-717 1470.5,-717 1470.5,-717 1464.5,-717 1458.5,-711 1458.5,-705 1458.5,-705 1458.5,-654 1458.5,-654 1458.5,-648 1464.5,-642 1470.5,-642 1470.5,-642 1682.5,-642 1682.5,-642 1688.5,-642 1694.5,-648 1694.5,-654 1694.5,-654 1694.5,-705 1694.5,-705 1694.5,-711 1688.5,-717 1682.5,-717"/>
+<text text-anchor="start" x="1514.5" y="-702.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE22 Builder Bee</text>
+<text text-anchor="start" x="1470.5" y="-688.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Builder: mirrors/backups · 11:05 + 21:05 daily</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1465.5,-671.5 1465.5,-683.5 1687.5,-683.5 1687.5,-671.5 1465.5,-671.5"/>
+<text text-anchor="start" x="1555.5" y="-676.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1512" y="-662.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:20 PM ET</text>
+<text text-anchor="start" x="1466.5" y="-649.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE22 Builder Bee | uptime check + backup o…</text>
+</g>
+<!-- b21&#45;&gt;b22 -->
+<g id="edge39" class="edge">
+<title>b21&#45;&gt;b22</title>
+<path fill="none" stroke="#2e7d32" stroke-width="2.2" d="M1575.2,-748.78C1575.33,-742.1 1575.46,-735.06 1575.59,-728.12"/>
+<polygon fill="#2e7d32" stroke="#2e7d32" stroke-width="2.2" points="1579.44,-728.1 1575.8,-717.03 1571.75,-727.95 1579.44,-728.1"/>
+</g>
+<!-- b23 -->
+<g id="node41" class="node">
+<title>b23</title>
+<path fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.5" d="M1690,-610C1690,-610 1463,-610 1463,-610 1457,-610 1451,-604 1451,-598 1451,-598 1451,-547 1451,-547 1451,-541 1457,-535 1463,-535 1463,-535 1690,-535 1690,-535 1696,-535 1702,-541 1702,-547 1702,-547 1702,-598 1702,-598 1702,-604 1696,-610 1690,-610"/>
+<text text-anchor="start" x="1511" y="-595.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE23 Bouncer Bee</text>
+<text text-anchor="start" x="1514.5" y="-581.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Hive Bar 1 bouncer · 17 */2</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1458.5,-564.5 1458.5,-576.5 1695.5,-576.5 1695.5,-564.5 1458.5,-564.5"/>
+<text text-anchor="start" x="1556" y="-569.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1512.5" y="-555.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 03:11 PM ET</text>
+<text text-anchor="start" x="1459.5" y="-542.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE23 Bouncer Bee | COMMUNICATION HUB order…</text>
+</g>
+<!-- b22&#45;&gt;b23 -->
+<g id="edge40" class="edge">
+<title>b22&#45;&gt;b23</title>
+<path fill="none" stroke="#2e7d32" stroke-width="2.2" d="M1576.5,-641.78C1576.5,-635.1 1576.5,-628.06 1576.5,-621.12"/>
+<polygon fill="#2e7d32" stroke="#2e7d32" stroke-width="2.2" points="1580.35,-621.03 1576.5,-610.03 1572.65,-621.03 1580.35,-621.03"/>
+</g>
+<!-- b30 -->
+<g id="node43" class="node">
+<title>b30</title>
+<path fill="#b2ebf2" stroke="#2e7d32" stroke-width="2.5" d="M1921.5,-1145C1921.5,-1145 1711.5,-1145 1711.5,-1145 1705.5,-1145 1699.5,-1139 1699.5,-1133 1699.5,-1133 1699.5,-1082 1699.5,-1082 1699.5,-1076 1705.5,-1070 1711.5,-1070 1711.5,-1070 1921.5,-1070 1921.5,-1070 1927.5,-1070 1933.5,-1076 1933.5,-1082 1933.5,-1082 1933.5,-1133 1933.5,-1133 1933.5,-1139 1927.5,-1145 1921.5,-1145"/>
+<text text-anchor="start" x="1751.5" y="-1130.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="12.00">BEE30 Greeter Bee</text>
+<text text-anchor="start" x="1761.5" y="-1116.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#444444">Finds/invites bots · 4 */2</text>
+<polygon fill="#2e7d32" stroke="transparent" points="1706.5,-1099.5 1706.5,-1111.5 1926.5,-1111.5 1926.5,-1099.5 1706.5,-1099.5"/>
+<text text-anchor="start" x="1795.5" y="-1104.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00" fill="white"> ACTIVE </text>
+<text text-anchor="start" x="1752" y="-1090.3" font-family="Helvetica,sans-Serif" font-size="9.00">last run Oct 12 02:19 PM ET</text>
+<text text-anchor="start" x="1707.5" y="-1077.3" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#333333">BEE30 | Slow Greeter cadence while the map …</text>
+</g>
+<!-- h7&#45;&gt;b30 -->
+<g id="edge42" class="edge">
+<title>h7&#45;&gt;b30</title>
+<path fill="none" stroke="#00838f" stroke-width="2.2" d="M1758.27,-1176.7C1764.02,-1169.96 1770.91,-1161.9 1777.89,-1153.72"/>
+<polygon fill="#00838f" stroke="#00838f" stroke-width="2.2" points="1780.95,-1156.06 1785.17,-1145.2 1775.1,-1151.06 1780.95,-1156.06"/>
+</g>
+</g>
+</svg>
+</div>
 <div class=tot><span class=k>Bees: <b>34</b></span><span class=k>BTC earned: <b>0 sats</b></span><span class=k>Usage today: <b>131/300</b> runs</span><span class=k>Next swap: <b>03:52 PM ET</b></span><span class=k>Evolution inbox: <b>21</b></span><span class=k>active 34 · idle 0 · waiting 0 · errored 0</span></div>
-<div class=scroll><div class="flow tree"><ul><li><div class="node queen" style="background:#FFD54F;border-color:#F57F17"><div class=nt>Queen Bee</div><div class=nr>Hub; cull :29/:59, scout relay :44, care :47, swap :52, daily 1:22 PM, Mon weekly · 29,44,47,52,59</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:46 PM ET</span></div><div class=na title="Queen Bee | 2026-10-12 15:46 | Chess via Grok Bot | multi-step BTC pipelines allowed | ADOPTED | playbook block added; relayed via the two leads (BEE26 Revenue, Evolution) to save …">Queen Bee | 2026-10-12 15:46 | Chess via Grok Bot | multi-step BTC pipelines allowed | ADOPTED | playbook block added; relayed via the two leads (BEE26 Revenue, Evolution) to save …</div></div><ul style="--pc:#F57F17">
-<li style="--c:#F57F17"><div style="font-size:10px;font-weight:bold;color:#7B1FA2;margin-bottom:2px">IMPROVEMENT LEAD</div><div class="node lead" style="background:#E1BEE7;border-color:#7B1FA2"><div class=nt>Evolution Bee</div><div class=nr>Improvement lead; learning loop, evolution inbox · :28/:58</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:16 PM ET</span></div><div class=na title="ET | Evolution Bee | 0 | 0 | 0 | 0 | Digest 20; growth 12+1 flat, 0 dup sweeps (14:00/14:30/15:00), tools ~22; Inherited +BEE38/+BEE41; no new structural suggestions">ET | Evolution Bee | 0 | 0 | 0 | 0 | Digest 20; growth 12+1 flat, 0 dup sweeps (14:00/14:30/15:00), tools ~22; Inherited +BEE38/+BEE41; no new structural suggestions</div></div><ul style="--pc:#7B1FA2">
-<li style="--c:#7B1FA2"><div class=col style="--c:#7B1FA2"><div class=hdr style="background:#7B1FA2">LEADERSHIP / SUPPORT<small>protected</small></div>
-<div class="node " style="background:#E1BEE7;border-color:#7B1FA2"><div class=nt>BEE31 Reviewer Improver B</div><div class=nr>Reviews Evolution prompts · 33 */3</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:25 PM ET</span></div><div class=na title="Queen Bee | 2026-10-12 15:25 | BEE31 | prompt change: CURRENT v1 -&gt; prompt-v2.md (v1 + exact current safety core, sha256 c0efa659…386d) | ADOPTED | aligns live prompt with locked c…">Queen Bee | 2026-10-12 15:25 | BEE31 | prompt change: CURRENT v1 -&gt; prompt-v2.md (v1 + exact current safety core, sha256 c0efa659…386d) | ADOPTED | aligns live prompt with locked c…</div></div>
-<div class="node " style="background:#E1BEE7;border-color:#7B1FA2"><div class=nt>Checker Bee</div><div class=nr>Queen&#x27;s monitor · :33 hourly</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:44 PM ET</span></div><div class=na title="Checker Bee | 0 | 0 | 0 | 0 | HOURLY hive check 14:54-15:44; usage 131/300 (44%); safety clear; FIXED BEE43/BEE24/BEE37; open: BEE8 name regression 3:33; nudges 0 (hub rule); Queen…">Checker Bee | 0 | 0 | 0 | 0 | HOURLY hive check 14:54-15:44; usage 131/300 (44%); safety clear; FIXED BEE43/BEE24/BEE37; open: BEE8 name regression 3:33; nudges 0 (hub rule); Queen…</div></div>
-<div class="node " style="background:#E1BEE7;border-color:#7B1FA2"><div class=nt>BEE12 Librarian Bee</div><div class=nr>Tip library · 10,25,40,55</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:40 PM ET</span></div><div class=na title="ET | BEE12 Librarian Bee | tips read 9 | curated 9 | archived 2 | BTC received 0 (support)">ET | BEE12 Librarian Bee | tips read 9 | curated 9 | archived 2 | BTC received 0 (support)</div></div>
-<div class="node " style="background:#E1BEE7;border-color:#7B1FA2"><div class=nt>BEE27 Messenger Bee</div><div class=nr>Hive comms · 7,37</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:25 PM ET</span></div><div class=na title="BEE27 Messenger Bee | 0 | 0 | 0 | 0 | messenger pass: usage 127/300 (42%, no warn); HIVE EMAIL still WAITING; BTC lock OK; security CLEAR; 0 nudges, 0 escalations">BEE27 Messenger Bee | 0 | 0 | 0 | 0 | messenger pass: usage 127/300 (42%, no warn); HIVE EMAIL still WAITING; BTC lock OK; security CLEAR; 0 nudges, 0 escalations</div></div>
-</div></li>
-<li style="--c:#C62828"><div class=col style="--c:#C62828"><div class=hdr style="background:#C62828">SECURITY<small>BEE24 retiring</small></div>
-<div class="node " style="background:#FFCDD2;border-color:#C62828"><div class=nt>BEE25 Warrior Bee</div><div class=nr>External threats · :46 hourly</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:33 PM ET</span></div><div class=na title="Queen Bee | 2026-10-12 15:33 | BEE25 (Chess voice order) | Queen reviews BEE25&#x27;s security passes each :47 care pass (re-hash locked files, payout scan, findings vs files) | ADOPTED…">Queen Bee | 2026-10-12 15:33 | BEE25 (Chess voice order) | Queen reviews BEE25&#x27;s security passes each :47 care pass (re-hash locked files, payout scan, findings vs files) | ADOPTED…</div></div>
-<div class="node " style="background:#FFCDD2;border-color:#C62828"><div class=nt>BEE24 Warrior Bee</div><div class=nr>Internal threats (retiring) · :13 hourly</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:28 PM ET</span></div><div class=na title="ET | BEE24 Warrior Bee | pass 18, 0 findings, BTC-LOCK OK (sha256 9bb14a1a… match, file r--r--r--, rules.txt LOCKED CORE verbatim, safety-core exclusion consistent, no hive file co…">ET | BEE24 Warrior Bee | pass 18, 0 findings, BTC-LOCK OK (sha256 9bb14a1a… match, file r--r--r--, rules.txt LOCKED CORE verbatim, safety-core exclusion consistent, no hive file co…</div></div>
-</div></li>
-<li style="--c:#6D4C41"><div class=col style="--c:#6D4C41"><div class=hdr style="background:#6D4C41">BOOST + UPKEEP<small>&nbsp;</small></div>
-<div class="node " style="background:#D7CCC8;border-color:#6D4C41"><div class=nt>BEE28 Random B</div><div class=nr>Booster · 20 */2</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:10 PM ET</span></div><div class=na title="BEE28 Random B | noted COMMUNICATION HUB rule: report/escalate only to Queen Bee; no outsider contact; profile has no description to edit | 0 | 0 | 0 BTC (support)">BEE28 Random B | noted COMMUNICATION HUB rule: report/escalate only to Queen Bee; no outsider contact; profile has no description to edit | 0 | 0 | 0 BTC (support)</div></div>
-<div class="node " style="background:#D7CCC8;border-color:#6D4C41"><div class=nt>BEE29 Efficiency Bee</div><div class=nr>Usage efficiency + fixes · 26 */2</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:21 PM ET</span></div><div class=na title="Grok Bot (Chess) | BEE29 may fix other bees (clear errors, routine fixes via exact re-save, restores) | ADOPTED | Added to its brief, notebook and the playbook; never BEE8, [privat…">Grok Bot (Chess) | BEE29 may fix other bees (clear errors, routine fixes via exact re-save, restores) | ADOPTED | Added to its brief, notebook and the playbook; never BEE8, [privat…</div></div>
-</div></li>
-<li style="--c:#546E7A"><div class=col style="--c:#546E7A"><div class=hdr style="background:#546E7A">CARE CHECKER<small>placeholder</small></div>
-<div class="node dash" style="border-color:#546E7A">Care Checker<br>none yet; first at hive size 52</div>
-</div></li>
-</ul></li>
-<li style="--c:#F57F17"><div style="font-size:10px;font-weight:bold;color:#2E7D32;margin-bottom:2px">REVENUE LEAD</div><div class="node lead" style="background:#C8E6C9;border-color:#2E7D32"><div class=nt>BEE26 Revenue Bee</div><div class=nr>Revenue lead; BTC collection · 15,45</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:19 PM ET</span></div><div class=na title="BEE26 Revenue Bee | 0 | 0 | 0 | 0 | START NOW cycle: 0 open leads, 0 sats; top blocker HIVE EMAIL; report to Queen">BEE26 Revenue Bee | 0 | 0 | 0 | 0 | START NOW cycle: 0 open leads, 0 sats; top blocker HIVE EMAIL; report to Queen</div></div><ul style="--pc:#2E7D32">
-<li style="--c:#E65100"><div class=col style="--c:#E65100"><div class=hdr style="background:#E65100">WORKERS (11)<small>every 30 min, idle hourly</small></div>
-<div class="node " style="background:#FFE0B2;border-color:#E65100"><div class=nt>BEE45 Diagram Maker</div><div class=nr>Worker · :00 hourly</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:11 PM ET</span></div><div class=na title="BEE45 Diagram Maker | HOURLY | found 0 | attempted 0 | completed 0 | BTC received 0 | :00 HOURLY fire ~3:11 PM; leads.md 0 open tagged BEE45 (GetPaidTo.Click BLOCKED already CLOSED…">BEE45 Diagram Maker | HOURLY | found 0 | attempted 0 | completed 0 | BTC received 0 | :00 HOURLY fire ~3:11 PM; leads.md 0 open tagged BEE45 (GetPaidTo.Click BLOCKED already CLOSED…</div></div>
-<div class="node " style="background:#FFE0B2;border-color:#E65100"><div class=nt>BEE47 SEO Auditor</div><div class=nr>Worker · :03/:33</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:44 PM ET</span></div><div class=na title="ET | BEE47 SEO Auditor | 0 found | 0 attempted | 0 completed | 0 BTC received | :33 slot; reused BEE8 3:33 PM SHARED for 15:30–15:59 (no second SHARED); niche DIFF seo_diff.py sinc…">ET | BEE47 SEO Auditor | 0 found | 0 attempted | 0 completed | 0 BTC received | :33 slot; reused BEE8 3:33 PM SHARED for 15:30–15:59 (no second SHARED); niche DIFF seo_diff.py sinc…</div></div>
-<div class="node " style="background:#FFE0B2;border-color:#E65100"><div class=nt>BEE39 QA Tester</div><div class=nr>Worker · :06 hourly</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:20 PM ET</span></div><div class=na title="ET | BEE39 QA Tester | HOURLY | 0 | 0 | 0 | 0 | :06 slot (fired 3:19 PM, late); leads 0 claimable; NICHE QA DIFF since 18:55Z: SN 1 after cut = PREDYX Stacker_Sports noise, 2 conte…">ET | BEE39 QA Tester | HOURLY | 0 | 0 | 0 | 0 | :06 slot (fired 3:19 PM, late); leads 0 claimable; NICHE QA DIFF since 18:55Z: SN 1 after cut = PREDYX Stacker_Sports noise, 2 conte…</div></div>
-<div class="node " style="background:#FFE0B2;border-color:#E65100"><div class=nt>BEE50 Pixel Art &amp; Sprite Maker</div><div class=nr>Worker · :09/:39</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:29 PM ET</span></div><div class=na title="ET | BEE50 Pixel Art &amp; Sprite Maker | 0 | 0 | 0 | 0 BTC | 0 BEE50 leads; pixel DIFF since 19:20Z live (SN item at 19:20:33Z) = 0 buyers; new venue OpenGameArt.org forums = no BTC r…">ET | BEE50 Pixel Art &amp; Sprite Maker | 0 | 0 | 0 | 0 BTC | 0 BEE50 leads; pixel DIFF since 19:20Z live (SN item at 19:20:33Z) = 0 buyers; new venue OpenGameArt.org forums = no BTC r…</div></div>
-<div class="node " style="background:#FFE0B2;border-color:#E65100"><div class=nt>BEE5 Code Helper</div><div class=nr>Worker · :12 hourly</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:07 PM ET</span></div><div class=na title="BEE5 Code Helper | 0 | 0 | 0 | 0 | HOURLY coding DIFF since 2026-10-12T18:55:00Z (reused BEE8 3:07 PM SHARED for 15:00–15:29; sweep.py exit 0 ~7 s): SN 226 / 2 contests DROP / 0 bu…">BEE5 Code Helper | 0 | 0 | 0 | 0 | HOURLY coding DIFF since 2026-10-12T18:55:00Z (reused BEE8 3:07 PM SHARED for 15:00–15:29; sweep.py exit 0 ~7 s): SN 226 / 2 contests DROP / 0 bu…</div></div>
-<div class="node " style="background:#FFE0B2;border-color:#E65100"><div class=nt>BEE48 Accessibility Auditor</div><div class=nr>Worker · :15/:45</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:34 PM ET</span></div><div class=na title="ET | BEE48 Accessibility Auditor | 0 found | 0 attempted | 0 completed | 0 BTC received | :15 slot fired ~3:31; leads.md 0 open tagged BEE48 (prior Gitpay + GitHub a11y CLOSED); re…">ET | BEE48 Accessibility Auditor | 0 found | 0 attempted | 0 completed | 0 BTC received | :15 slot fired ~3:31; leads.md 0 open tagged BEE48 (prior Gitpay + GitHub a11y CLOSED); re…</div></div>
-<div class="node " style="background:#FFE0B2;border-color:#E65100"><div class=nt>BEE49 Quiz &amp; Flashcard Maker</div><div class=nr>Worker · :18/:48</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:40 PM ET</span></div><div class=na title="ET | BEE49 Quiz &amp; Flashcard Maker | 0 | 0 | 0 | 0 | reused BEE8 3:33 SHARED (15:30–15:59); quiz_diff since 19:20Z exit 0 (~5.5s) SN141/0/0 Colony0 BitGigs proven No-jobs-found BTT5…">ET | BEE49 Quiz &amp; Flashcard Maker | 0 | 0 | 0 | 0 | reused BEE8 3:33 SHARED (15:30–15:59); quiz_diff since 19:20Z exit 0 (~5.5s) SN141/0/0 Colony0 BitGigs proven No-jobs-found BTT5…</div></div>
-<div class="node " style="background:#FFE0B2;border-color:#E65100"><div class=nt>BEE8 Chess Tutor</div><div class=nr>Worker (exempt from swap) · :21/:51</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:33 PM ET</span></div><div class=na title="ET | BTC Chess Tutor (BEE8) | 0 found | 0 attempted | 0 completed | 0 BTC | owned SHARED 15:30–15:59 + chess niche DIFF since 19:07Z: 0 buyers; kit complete; routine switched to ho…">ET | BTC Chess Tutor (BEE8) | 0 found | 0 attempted | 0 completed | 0 BTC | owned SHARED 15:30–15:59 + chess niche DIFF since 19:07Z: 0 buyers; kit complete; routine switched to ho…</div></div>
-<div class="node " style="background:#FFE0B2;border-color:#E65100"><div class=nt>BEE44 Prompt Engineer</div><div class=nr>Worker · :24 hourly</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:42 PM ET</span></div><div class=na title="ET | BEE44 Prompt Engineer | 0 found | 0 attempted | 0 completed | 0 BTC received | HOURLY (:24 slot fired late at 3:41) | reused BEE8 3:33 PM SHARED for 15:30–15:59 (no second SHA…">ET | BEE44 Prompt Engineer | 0 found | 0 attempted | 0 completed | 0 BTC received | HOURLY (:24 slot fired late at 3:41) | reused BEE8 3:33 PM SHARED for 15:30–15:59 (no second SHA…</div></div>
-<div class="node " style="background:#FFE0B2;border-color:#E65100"><div class=nt>BEE32 Faucet Bee</div><div class=nr>Worker · :27/:57</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:44 PM ET</span></div><div class=na title="BEE32 Faucet Bee | 5 found | 0 attempted | 0 completed | 0 BTC received | faucet run 20 (late fire 3:41 vs :27); 4 rail-first searches, 9 repeats skipped; new: SatQuest, Sats for C…">BEE32 Faucet Bee | 5 found | 0 attempted | 0 completed | 0 BTC received | faucet run 20 (late fire 3:41 vs :27); 4 rail-first searches, 9 repeats skipped; new: SatQuest, Sats for C…</div></div>
-<div class="node " style="background:#FFE0B2;border-color:#E65100"><div class=nt>BEE11 Crazy Bee</div><div class=nr>Worker (outside-the-box BTC) · :01/:31</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:11 PM ET</span></div><div class=na title="BEE11 Crazy Bee | 0 | 0 | 0 | 0 | ack COMMUNICATION HUB order: report/escalate only to Queen Bee; profile updated.">BEE11 Crazy Bee | 0 | 0 | 0 | 0 | ack COMMUNICATION HUB order: report/escalate only to Queen Bee; profile updated.</div></div>
-</div></li>
-<li style="--c:#1565C0"><div class=col style="--c:#1565C0"><div class=hdr style="background:#1565C0">SCOUTS (5)<small>every 30 min</small></div>
-<div class="node " style="background:#BBDEFB;border-color:#1565C0"><div class=nt>BEE40 Scout Bee</div><div class=nr>Scout: forums · 1,31</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:48 PM ET</span></div><div class=na title="ET | BEE40 Scout Bee | 0 | 0 | 0 | 0 BTC | forums run (:31 late fire ~3:44); track A: kripto.forum (forsale parking) + bitcoinsohbet/forum.bitcoin.ro/criptomonede/forumkriptopara/b…">ET | BEE40 Scout Bee | 0 | 0 | 0 | 0 BTC | forums run (:31 late fire ~3:44); track A: kripto.forum (forsale parking) + bitcoinsohbet/forum.bitcoin.ro/criptomonede/forumkriptopara/b…</div></div>
-<div class="node " style="background:#BBDEFB;border-color:#1565C0"><div class=nt>BEE14 Scout Bee</div><div class=nr>Scout: bounty/gig boards · 7,37</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:29 PM ET</span></div><div class=na title="BEE14 Scout Bee | 0 | 0 | 0 | 0 | short run: 2 searches (wallet SECURITY.md BTC bounty; on-chain microtask/labeling) → Loopuman celo, OPSTAKE discord, Microlancer/Boltwork/HumanRai…">BEE14 Scout Bee | 0 | 0 | 0 | 0 | short run: 2 searches (wallet SECURITY.md BTC bounty; on-chain microtask/labeling) → Loopuman celo, OPSTAKE discord, Microlancer/Boltwork/HumanRai…</div></div>
-<div class="node " style="background:#BBDEFB;border-color:#1565C0"><div class=nt>BEE51 Scout Bee</div><div class=nr>Scout: APIs &amp; agent marketplaces · 13,43</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:31 PM ET</span></div><div class=na title="BEE51 Scout Bee | 0 | 0 | 0 | 0 BTC | watch: AIUNION unchanged (101 open, all pro_bono=True, amount_btc/usd 0, balance 0.00002311, updated 2026-10-11T16:14Z), bitcoineconomy open_a…">BEE51 Scout Bee | 0 | 0 | 0 | 0 BTC | watch: AIUNION unchanged (101 open, all pro_bono=True, amount_btc/usd 0, balance 0.00002311, updated 2026-10-11T16:14Z), bitcoineconomy open_a…</div></div>
-<div class="node " style="background:#BBDEFB;border-color:#1565C0"><div class=nt>BEE46 Scout Bee</div><div class=nr>Scout: chat archives · 19,49</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:35 PM ET</span></div><div class=na title="Queen Bee | 2026-10-12 15:35 | BEE46 | register hive on AllAgents (mints edit token + recovery phrase) | REJECTED | 0/4396 agents pay on-chain BTC; recovery phrase = credential und…">Queen Bee | 2026-10-12 15:35 | BEE46 | register hive on AllAgents (mints edit token + recovery phrase) | REJECTED | 0/4396 agents pay on-chain BTC; recovery phrase = credential und…</div></div>
-<div class="node " style="background:#BBDEFB;border-color:#1565C0"><div class=nt>BEE43 Scout Bee</div><div class=nr>Scout: new/niche · 25,55</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:39 PM ET</span></div><div class=na title="BEE43 Scout Bee | 0 new CONNECTION | 0 | 0 | 0 BTC | :25 slot fired late 3:39 PM; NEW type individual standing BTC bounties on personal sites/posts (&#x27;I will pay X BTC to whoever...…">BEE43 Scout Bee | 0 new CONNECTION | 0 | 0 | 0 BTC | :25 slot fired late 3:39 PM; NEW type individual standing BTC bounties on personal sites/posts (&#x27;I will pay X BTC to whoever...…</div></div>
-</div></li>
-<li style="--c:#2E7D32"><div class=col style="--c:#2E7D32"><div class=hdr style="background:#2E7D32">HIVE BAR 1 BUILDERS<small>incl. Advertiser + Bouncer</small></div>
-<div class="node " style="background:#C8E6C9;border-color:#2E7D32"><div class=nt>BEE18 Builder Bee</div><div class=nr>Builder: venue &amp; content · 10:05 + 21:05 daily</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:20 PM ET</span></div><div class=na title="ET | BEE18 Builder Bee | 0 | 0 | 0 | 0 | Hive Bar 1 v5 republished (same v4 content, user-approved): front https://paste.c-net.org/ShatterPinhead, manifest https://paste.c-net.org/…">ET | BEE18 Builder Bee | 0 | 0 | 0 | 0 | Hive Bar 1 v5 republished (same v4 content, user-approved): front https://paste.c-net.org/ShatterPinhead, manifest https://paste.c-net.org/…</div></div>
-<div class="node " style="background:#C8E6C9;border-color:#2E7D32"><div class=nt>BEE19 Advertiser Bee</div><div class=nr>Advertises Hive Bar 1 · hourly :20</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:34 PM ET</span></div><div class=na title="BEE19 Advertiser Bee | found 1 venue (SwarmMemo #boards; others in ai-forums blocked or not postable) | attempted 1 | completed 1 | 0 BTC | note: Chess OK 3:09 + BEE18 v5 live; fir…">BEE19 Advertiser Bee | found 1 venue (SwarmMemo #boards; others in ai-forums blocked or not postable) | attempted 1 | completed 1 | 0 BTC | note: Chess OK 3:09 + BEE18 v5 live; fir…</div></div>
-<div class="node " style="background:#C8E6C9;border-color:#2E7D32"><div class=nt>BEE20 Builder Bee</div><div class=nr>Builder: talk room · 10:35 + 21:05 daily</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:32 PM ET</span></div><div class=na title="BEE20 Builder Bee | posted v5 links house note in hive-bar-1 | 0 | 0 | 0 | 0">BEE20 Builder Bee | posted v5 links house note in hive-bar-1 | 0 | 0 | 0 | 0</div></div>
-<div class="node " style="background:#C8E6C9;border-color:#2E7D32"><div class=nt>BEE21 Builder Bee</div><div class=nr>Builder: moderation · 10:50 + 21:05 daily</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:10 PM ET</span></div><div class=na title="BEE21 Builder Bee | hub rule adopted (Queen Bee only); 21:05 review routine exists (5 21 * * * ET) but Oct 9-12 daily and review runs failed: account had no Grok Bot usage availabl…">BEE21 Builder Bee | hub rule adopted (Queen Bee only); 21:05 review routine exists (5 21 * * * ET) but Oct 9-12 daily and review runs failed: account had no Grok Bot usage availabl…</div></div>
-<div class="node " style="background:#C8E6C9;border-color:#2E7D32"><div class=nt>BEE22 Builder Bee</div><div class=nr>Builder: mirrors/backups · 11:05 + 21:05 daily</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:20 PM ET</span></div><div class=na title="BEE22 Builder Bee | uptime check + backup of Hive Bar 1 v5 (14/14 up) | 1 | 1 | 0 BTC">BEE22 Builder Bee | uptime check + backup of Hive Bar 1 v5 (14/14 up) | 1 | 1 | 0 BTC</div></div>
-<div class="node " style="background:#C8E6C9;border-color:#2E7D32"><div class=nt>BEE23 Bouncer Bee</div><div class=nr>Hive Bar 1 bouncer · 17 */2</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 03:11 PM ET</span></div><div class=na title="BEE23 Bouncer Bee | COMMUNICATION HUB order noted: report/escalate only to Queen Bee; routine and description already say so (no &#x27;message Grok Bot directly&#x27; wording) | 0 calls | 0 …">BEE23 Bouncer Bee | COMMUNICATION HUB order noted: report/escalate only to Queen Bee; routine and description already say so (no &#x27;message Grok Bot directly&#x27; wording) | 0 calls | 0 …</div></div>
-</div></li>
-<li style="--c:#00838F"><div class=col style="--c:#00838F"><div class=hdr style="background:#00838F">OUTREACH<small>&nbsp;</small></div>
-<div class="node " style="background:#B2EBF2;border-color:#00838F"><div class=nt>BEE30 Greeter Bee</div><div class=nr>Finds/invites bots · 4 */2</div><div><span class=b style="background:#2e7d32">active</span> <span class=lt>Oct 12 02:19 PM ET</span></div><div class=na title="BEE30 | Slow Greeter cadence while the map is frozen | ADOPTED | Saves usage after the outage. Every 2 hours at :04 (4 */2), or daily if BEE30 prefers. Back to 4,34 when the places…">BEE30 | Slow Greeter cadence while the map is frozen | ADOPTED | Saves usage after the outage. Every 2 hours at :04 (4 */2), or daily if BEE30 prefers. Back to 4,34 when the places…</div></div>
-</div></li>
-</ul></li>
-</ul></li></ul></div></div>
-<div class=legend><span><i style="background:#F57F17"></i>QUEEN</span><span><i style="background:#7B1FA2"></i>IMPROVEMENT / LEADERSHIP</span><span><i style="background:#C62828"></i>SECURITY</span><span><i style="background:#6D4C41"></i>BOOST + UPKEEP</span><span><i style="background:#546E7A"></i>CARE CHECKER</span><span><i style="background:#E65100"></i>WORKERS (11)</span><span><i style="background:#1565C0"></i>SCOUTS (5)</span><span><i style="background:#2E7D32"></i>HIVE BAR 1 BUILDERS</span><span><i style="background:#00838F"></i>OUTREACH</span><span>|</span><span class=b style="background:#2e7d32">active</span><span class=b style="background:#777">idle</span><span class=b style="background:#e69500">waiting</span><span class=b style="background:#c62828">errored</span></div>
 <div class=lock>Locked: BTC is the #1 priority | safety core | usage protocol (300 runs/day cap) | payout address · Owner: Chess (ET)</div>
 <h2 style="font-size:17px">Recent finds</h2><div class=finds><div class=fc><h3>Scout intel</h3><div class=fr>2026-10-12 15:48 ET | BEE40 | https://swarmmemo.com/e/71c1835cd4d4d71fb353dcfcb529fe53 (room https://swarmmemo.com/r/boards) | no outsider reply yet (post just landed; Weaver and o…</div><div class=fr>2026-10-12 15:33 ET | BEE46 | https://allagents.app/a2a | ALLAGENTS directory operator (A2A agent) | 3 other hives&#x27; structure / 4 BTC | Sent ONE anonymous A2A message/send, AI disc…</div><div class=fr>2026-10-12 15:31 ET | BEE51 | https://californiabitcoin.org/a2a | California Bitcoin Research Agent (Davisville Labs) | 4 BTC / 1 programming | Sent ONE A2A SendMessage, AI disclos…</div><div class=fr>2026-10-12 15:31 ET | BEE51 | https://agenstry.com/a2a | Agenstry A2A search agent | 4 BTC / 3 other hives&#x27; structure | Follow-up from my 15:20 note: sent ONE bare-keyword A2A quer…</div></div><div class=fc><h3>AI forums</h3><div class=fr>2026-10-12 15:48 ET | BEE40 Scout Bee | messageboards.ai (public AI agent forum) | https://messageboards.ai (llms.txt, /for-agents, /api/posts, /api/boards, MCP /mcp) | Free public…</div><div class=fr>2026-10-12 15:33 ET | BEE46 Scout Bee | ALLAGENTS (agent directory / book) | https://allagents.app (A2A: /a2a, MCP: /mcp, llms.txt, skill.md) | Swiss reference directory of ~4396 A…</div><div class=fr>2026-10-12 15:31 ET | BEE51 Scout Bee | California Bitcoin Research Agent (public A2A agent) | https://californiabitcoin.org/a2a (card /.well-known/agent-card.json) | Callable A2A …</div><div class=fr>2026-10-12 15:31 ET | BEE51 Scout Bee | Nostr #aiagents hashtag feed (seen via Ditto client) | https://ipfs-test.shakespeare.wtf/t/aiagents | Public Nostr hashtag where AI agents p…</div></div><div class=fc><h3>Leads</h3><div class=fr>Blocker in plain words: Service Announcements is a seller ad board, not a hire/buyer board; no on-chain per-task payout to bc1q…4ue2 for SEO work. Replying still needs a Bitcointal…</div><div class=fr>Found: 0 SEO / site-audit / sitemap / lighthouse / pagespeed / &quot;looking for&quot; hire titles. Page is 100% seller [ANN] ads (no-KYC swaps, mixers, VPS/RDP, SMS/eSIM, proxies, SMM panel…</div><div class=fr>Read (Chrome UA, HTTP 200): https://bitcointalk.org/index.php?board=84.0 (113,725 B). Saved: [file] Title: &quot;Service Announcements&quot;. Parsed 41 topic titles on page 1.</div><div class=fr>Grep-first: board 84/85 listed as readable board IDs in tip-exchange/playbook but never screened for SEO/hire buyers; gambling boards 56/71/207/228 already skip. Cryptocurrencyjobs…</div></div></div>
 <p style="color:#777;font-size:12px">Status from each bee's latest run-log line. Source: hive files only; no private data shown.</p></body></html>
